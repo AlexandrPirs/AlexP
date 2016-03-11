@@ -1,0 +1,625 @@
+/* LG */
+@media (min-width : 1200px) {
+
+}
+
+/* MD */
+@media (min-width : 992px) and (max-width : 1199px) {
+
+    main .level_driver .title {
+        font-size: 30px;
+    }
+
+    main .level_driver ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    main .conditions .item {
+        margin-top: 110px;
+    }
+
+    /* SLIDER */
+    .slider_1 .slider_item_title {
+        font-size: 26px;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 16px;
+    }
+    /* SLIDER */
+
+}
+
+/* SM */
+@media (min-width : 768px) and (max-width : 991px) {
+
+
+    main .level_driver .title {
+        font-size: 20px;
+    }
+
+    main .level_driver ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    main .conditions .item {
+        margin-top: 85px;
+    }
+
+    main .level_driver aside .title {
+        font-size: 16px;
+    }
+
+    main .level_driver aside ul {
+        margin-top: 30px;
+    }
+
+    main .level_driver aside ul li {
+        font-size: 14px;
+    }
+
+    /* SLIDER */
+    .slider_1 {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .slider_1 .slider_item_title {
+        font-size: 24px;
+        margin-left: 5%;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 14px;
+        margin-left: 5%;
+    }
+    /* SLIDER */
+
+    .forma .title {
+        font-size: 40px;
+    }
+
+    .forma h2 {
+        font-size: 24px;
+    }
+}
+
+/* XS */
+@media (min-width : 420px) and (max-width : 767px) {
+    header .header_top_line .call p {
+        display: none;
+    }
+
+    header .header_top_line .call img {
+        display: block;
+    }
+
+    header .header_center p {
+        font-size: 50px;
+    }
+
+    main .traning_driver .title {
+        font-size: 42px;
+    }
+
+    main .traning_driver {
+        background-image: url("../img2/img_02_mob.png");
+        background-position: 100% 94%;
+        background-repeat: repeat-x;
+
+    }
+
+    main .traning_driver .driver_body ul {
+        margin-left: -40px;
+    }
+
+    main .traning_driver .driver_body ul li {
+
+    }
+
+    main .conditions {
+        background-image: url("../img2/img_03_mob.jpg");
+        background-position: center;
+
+    }
+
+    main .conditions .title {
+        font-size: 40px;
+    }
+
+    main .conditions .item {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    main .level_driver {
+        height: 930px;
+    }
+
+    main .level_driver p {
+        font-size: 14px;
+    }
+
+    main .level_driver h1 {
+        margin-top: 0;
+        margin-bottom: 0px;
+        line-height: 1;
+    }
+
+    main .level_driver .title {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    main .level_driver ul li{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    main .level_driver aside {
+        position: relative;
+        height: 300px;
+        background-image: url("../img2/img_05_mob.jpg");
+        background-position: center;
+    }
+
+    /* SLIDER */
+    .slider_1 {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .slider_1 .slider_item_title {
+        font-size: 24px;
+        margin-left: 5%;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 14px;
+        margin-left: 5%;
+    }
+
+    .slider .title {
+        font-size: 40px;
+    }
+    /* SLIDER */
+
+    .forma .title {
+        font-size: 30px;
+    }
+
+    .forma h2 {
+        font-size: 22px;
+    }
+
+    .forma strong {
+        font-size: 22px;
+    }
+
+    .forma .button_01 {
+        font-size: 26px;
+    }
+
+    .footer_form input {
+        height: 65px;
+        margin-bottom: 15px;
+    }
+
+    .footer_form {
+        margin-bottom: -10px;
+    }
+
+    /* MAP - contact */
+    .map .contact_map {
+        left: 5%;
+    }
+    /* MAP - contact */
+}
+
+
+
+
+@media (min-width : 420px) and (max-width : 654px) {
+
+    main .level_driver {
+        min-height: 515px;
+        max-height: 750px;
+        height: 100%;
+    }
+
+    main .level_driver h1 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    main .level_driver .title {
+        font-size: 16px;
+    }
+
+    main .level_driver aside {
+        display: none;
+    }
+
+    main .level_driver .title {
+        text-align: left;
+    }
+
+    main .level_driver ul li{
+        text-align: left;
+    }
+
+    main .traning_driver .driver_body ul {
+        margin-top: 30px;
+    }
+}
+
+
+/*СПЕЦИАЛЬНО для текста в traning_drive */
+@media (min-width : 420px) and (max-width : 485px) {
+    main .traning_driver .driver_body ul li {
+        margin-bottom: 16px;
+    }
+
+
+}
+
+@media (min-width : 320px) and (max-width : 419px) {
+    header .header_top_line .call p {
+        display: none;
+    }
+
+    header .header_top_line .call img {
+        display: block;
+    }
+
+    header .header_center p {
+        font-size: 50px;
+    }
+
+    header .header_center .button_01 {
+        font-size: 18px;
+    }
+
+    main .traning_driver .title {
+        font-size: 30px;
+    }
+
+    main .traning_driver .driver_body ul {
+        margin-top: 10px;
+        margin-left: -40px;
+        margin-bottom: 40px;
+    }
+
+    main .traning_driver .driver_body ul li {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    main .traning_driver .driver_body ul li img {
+        display: none;
+    }
+
+    main .traning_driver {
+        max-height: 430px;
+        max-height: 568px;
+        height: 100%;
+    }
+
+    main .conditions {
+        background-image: url("../img2/img_03_mob.jpg");
+        background-position: center;
+
+    }
+
+    main .conditions .title {
+        margin-top: -5px;
+        font-size: 28px;
+    }
+
+    main .conditions .item {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    main .level_driver {
+        min-height: 515px;
+        max-height: 750px;
+        height: 100%;
+    }
+
+    main .level_driver p {
+        display: none;
+    }
+
+    main .level_driver h1 {
+        margin-top: 25px;
+        font-size: 40px;
+        margin-bottom: 0;
+        line-height: 1.2;
+    }
+
+
+    main .level_driver aside {
+        display: none;
+    }
+
+    main .level_driver .title {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    main .level_driver ul li img {
+        display: none;
+    }
+
+    main .level_driver ul li{
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+
+    /* SLIDER */
+    .slider_1 {
+        padding:0;
+    }
+
+    .slider_1 .slider_item_title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .slider .title {
+        font-size: 30px;
+    }
+    /* SLIDER */
+
+
+    .forma .title {
+        font-size: 30px;
+    }
+
+    .forma .text p {
+        font-size: 16px;
+    }
+
+    .forma h2 {
+        font-size: 18px;
+    }
+
+    .forma strong {
+        font-size: 18px;
+    }
+
+    .footer_form input {
+        height: 65px;
+        margin-bottom: 15px;
+    }
+
+    .footer_form {
+        margin-bottom: -10px;
+    }
+
+    .forma .button_01 {
+        padding-top: 15px;
+        font-size: 26px;
+    }
+
+    .forma .button_01 p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    /* MAP - contact */
+    .map .contact_map {
+        left: 1%;
+        width: 270px;
+    }
+
+    .map .contact_map h1 {
+        font-size: 40px;
+    }
+
+    .map .contact_map strong {
+        font-size: 14px;
+    }
+    /* MAP - contact */
+
+    /* POP - форма */
+    .pop_form {
+        height: 350px;
+    }
+    /* POP - форма */
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+@media (max-width : 319px) {
+    header .header_top_line .call p {
+        display: none;
+    }
+
+    header .header_top_line .call img {
+        display: block;
+    }
+
+    header .header_center p {
+        font-size: 50px;
+    }
+
+    header .header_center .button_01 {
+        font-size: 18px;
+    }
+
+    main .traning_driver .title {
+        font-size: 26px;
+    }
+
+    main .traning_driver .driver_body ul {
+        margin-top: 10px;
+        margin-left: -40px;
+        margin-bottom: 40px;
+    }
+
+    main .traning_driver .driver_body ul li {
+        font-size: 13px;
+        text-align: center;
+        margin-top: -5px;
+
+    }
+
+    main .traning_driver .driver_body ul li img {
+        display: none;
+    }
+
+    main .traning_driver {
+        max-height: 430px;
+        max-height: 568px;
+        height: 100%;
+    }
+
+    main .conditions {
+        background-image: url("../img2/img_03_mob.jpg");
+        background-position: center;
+
+    }
+
+    main .conditions .title {
+        margin-top: -5px;
+        font-size: 24px;
+    }
+
+    main .conditions .item {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    main .conditions .item p {
+        font-size: 16px;
+    }
+
+    main .level_driver {
+        min-height: 515px;
+        max-height: 750px;
+        height: 100%;
+    }
+
+    main .level_driver p {
+        display: none;
+    }
+
+    main .level_driver h1 {
+        margin-top: 25px;
+        font-size: 30px;
+        margin-bottom: 0;
+        line-height: 1.2;
+    }
+
+
+    main .level_driver aside {
+        display: none;
+    }
+
+    main .level_driver .title {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    main .level_driver ul li img {
+        display: none;
+    }
+
+    main .level_driver ul li{
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+
+    /* SLIDER */
+    .slider_1 {
+        padding:0;
+    }
+
+    .slider_1 .slider_item_title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .slider .title {
+        font-size: 24px;
+    }
+    /* SLIDER */
+
+
+    .forma .title {
+        font-size: 26px;
+    }
+
+    .forma .text p {
+        font-size: 14px;
+    }
+
+    .forma h2 {
+        font-size: 18px;
+    }
+
+    .forma strong {
+        font-size: 18px;
+    }
+
+    .footer_form input {
+        height: 65px;
+        margin-bottom: 15px;
+    }
+
+    .footer_form {
+        margin-bottom: -10px;
+    }
+
+    .forma .button_01 {
+        padding-top: 15px;
+        font-size: 24px;
+    }
+
+    .forma .button_01 p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    /* MAP - contact */
+    .map .contact_map {
+        left: 0;
+        width: 250px;
+    }
+
+    .map .contact_map h1 {
+        font-size: 40px;
+    }
+
+    .map .contact_map strong {
+        font-size: 14px;
+    }
+    /* MAP - contact */
+
+    /* POP - форма */
+    .pop_form {
+        height: 350px;
+    }
+    /* POP - форма */
+}

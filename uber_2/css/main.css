@@ -1,0 +1,639 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-size: 16px;
+}
+
+
+/* √ŒÀŒ¬¿ */
+
+header {
+	position: relative;
+	width: 100%;
+	background-image: url("../img2/img_01.jpg");
+	background-position: center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	height: 750px;
+
+}
+
+header .header_top_line {
+	height: 65px;
+	width: 100%;
+	background: #000;
+	z-index: 10;
+}
+
+header .header_top_line .logo {
+	float: left;
+	margin-top: 4px;
+}
+
+header .header_top_line .call {
+	float: right;
+	font-size: 30px;
+	font-family: "Ekibastuz Black";
+	color: #fff;
+	margin: 0;
+	margin-top: -15px;
+	margin-left: 5%;
+}
+
+header .header_top_line .call img {
+	position: absolute;
+	right: 5%;
+	top: 12px;
+    display: none;
+}
+
+header .header_top_line .call img:hover {
+    cursor: pointer;
+}
+
+header .header_top_line .call .call_icon {
+    display: none;
+    position: absolute;
+    right: 0%;
+    top: 65px;
+    width: 320px;
+    height: 50px;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+header .header_top_line .call .call_icon p {
+    display: block;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+header .header_center {
+	position: relative;
+	text-align: center;
+	margin: 0;
+	margin-top: 120px;
+}
+
+header .header_center p {
+	color: #fff;
+	font-size: 70px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+header .header_center .button_01 {
+	width: 0 auto;
+	margin: 0;
+	font-size: 24px;
+	font-family: "Ekibastuz Black";
+	font-weight: Bold;
+	color: #000;
+	max-width: 380px;
+	min-width: 220px;
+	width: 100%;
+	height: 65px;
+	background: #ffcb05;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+/*  ŒÕ“≈Õ“ */
+
+main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: #fff;
+	background-position: center;
+	margin: 0;
+	z-index: 5;
+}
+
+
+main .traning_driver {
+	position: relative;
+	width: 100%;
+	height: 568px;
+	background-image: url("../img2/img_02.jpg");
+	background-position: center;
+}
+
+main .traning_driver .title {
+	margin-top: 35px;
+	font-size: 60px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	color: #000;
+}
+
+main .traning_driver .driver_body ul {
+	position: relative;
+	margin-top: 50px;
+	list-style-type: none;
+}
+
+main .traning_driver .driver_body ul li {
+	font-size: 16px;
+	font-family: "Ekibastuz-Bold";
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 23px;
+	text-align: left;
+}
+
+
+main .conditions {
+	position: relative;
+	width: 100%;
+	height: 750px;
+	background-image: url("../img2/img_03.jpg");
+	background-position: center;
+}
+
+main .conditions .title {
+	height: 100%;
+	padding-top: 45px;
+	font-size: 58px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	color: #fff;
+}
+
+
+main .conditions .item {
+	position: relative;
+	margin-top: 130px;
+	max-width: 300px;
+	width: 100%;
+	padding: 0px 17px;
+	border: 5px solid #fff;
+}
+
+main .conditions .item p {
+	font-family: "Ekibastuz-Bold";
+	font-weight: bold;
+	font-style: normal;
+	font-size: 18px;
+	color: #fff;
+}
+
+main .level_driver {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	background-image: url("../img2/img_04.jpg");
+	background-position: center;
+	z-index: 10;
+}
+
+main .level_driver p {
+	margin-top: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: "BebasLight";
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 0px;
+}
+
+main .level_driver h1 {
+	margin-top: -10px;
+	font-size: 60px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	color: #1f89aa;
+}
+
+main .level_driver .title {
+	font-size: 30px;
+	font-family: "Ekibastuz-Bold";
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+}
+
+main .level_driver ul {
+	position: relative;
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+main .level_driver ul li {
+	font-size: 16px;
+	font-family: "Ekibastuz";
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+main .level_driver ul li img {
+	padding-right: 7px;
+	padding-bottom: 3px;
+}
+
+main .level_driver aside {
+	position: relative;
+	height: 470px;
+	background-image: url("../img2/img_05.jpg");
+	background-position: center;
+	background-size: auto;
+	padding: 30px 30px 0px 30px;
+}
+
+main .level_driver aside .title {
+	font-size: 18px;
+	font-family: "Ekibastuz-Bold";
+	font-weight: bold;
+	font-style: normal;
+	color: #fff;
+	margin-top:0px;
+}
+
+main .level_driver aside ul {
+	position: relative;
+	list-style-type: none;
+	margin-top: 40px;
+}
+
+main .level_driver aside ul li {
+	font-size: 16px;
+	font-family: "Ekibastuz";
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    background-color: #fff;
+}
+
+.slider .title {
+    text-align: center;
+    font-family: "BebasBold";
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 55px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+.slider_1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0px 50px 0px 50px;
+    margin-top: 20px;
+}
+
+.bxslider img {
+    margin-top: -15px;
+    margin-left: 0;
+}
+
+.slider_1 .slider_item_title {
+    position: relative;
+    top: 0;
+    font-family: "Ekibastuz-Bold";
+    font-width: bold;
+    font-size: 30px;
+    color: #1eacc7;
+}
+
+.slider_1 .slider_item_text {
+    position: relative;
+    top: 0px;
+    font-family: "Ekibastuz-Bold";
+    font-width: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.bx-pager-item {
+    margin-left: 47%;
+    margin-top: 30px;
+}
+
+.bx-pager-link {
+    margin-left: 15px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    text-indent: -9999px;
+}
+
+.bx-pager-link:hover {
+    background: #000;
+}
+
+.bx-next {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 25px;
+    height: 120px;
+    cursor: pointer;
+    background: url("../img2/arrow_right.png") no-repeat;
+    margin: 0;
+    text-indent: -9999px;
+}
+
+.bx-prev {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 25px;
+    height: 120px;
+    cursor: pointer;
+    background: url("../img2/arrow_left.png") no-repeat;
+    margin: 0;
+    text-indent: -9999px;
+}
+
+
+
+
+.forma {
+    position: relative;
+    width: 100%;
+    height: 720px;
+    background-image: url("../img2/img_06.jpg");
+    background-position: center;
+    background-size: auto;
+    margin: 0;
+    border: none;
+    text-align: center;
+}
+
+.forma .title {
+    text-align: center;
+    font-family: "BebasBold";
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 55px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.forma .text p {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Ekibastuz";
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+}
+
+.forma .text em {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Ekibastuz";
+    font-style: bold;
+    color: #ffdd00;
+}
+
+.footer_form {
+    position: relative;
+    max-width: 550px;
+    min-width: 200px;
+    width: 100%;
+    height: 270px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: -10px;
+}
+
+.footer_form input {
+    width: 100%;
+    height: 75px;
+    border: 5px solid #ebebeb;
+    border-radius: 35px;
+    outline: none;
+    padding-left: 25px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.forma h2 {
+    font-size: 24px;
+    font-family: "Ekibastuz-Bold";
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+}
+
+.forma strong {
+    font-size: 24px;
+    font-family: "Ekibastuz-Bold";
+    font-weight: bold;
+    font-style: normal;
+    color: #ffdd00;
+    text-transform: uppercase;
+}
+
+
+.forma .button_01 {
+    max-width: 380px;
+    min-width: 200px;
+    width: 100%;
+    height: 85px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 25px;
+    color: #000;
+    margin-bottom: 20px;
+    background: #ffdd00;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-family: "BebasBold";
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.forma .button_01 p {
+    margin-top: -10px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "BebasLight";
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    color: #000;
+    line-height: 1;
+}
+
+
+
+.map {
+    position: relative;
+    width: 100%;
+    height: 570px;
+}
+
+.map .contact_map {
+    position: absolute;
+    max-width: 310px;
+    min-width: 210px;
+    width: 100%;
+    height: 260px;
+    background: #fff;
+    bottom: 150px;
+    left: 200px;
+    padding-left: 30px;
+}
+
+.map .contact_map h1 {
+    font-size: 60px;
+    font-family: "BebasBold";
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.map .contact_map p {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.map .contact_map strong {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+}
+
+
+/*FORMA*/
+
+#success-message {
+	margin: 0 auto;
+	max-width: 400px;
+	max-height:220px;
+	padding: 25px;
+	display: none;
+	text-align: left;
+}
+
+#success-message h4 {
+	font-size: 30px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+}
+
+
+
+
+.pop_form {
+    margin: 0 auto;
+    max-width: 400px;
+    min-width: 200px;
+    width: 100%;
+    height: 300px;
+    display: none;
+    text-align: center;
+}
+
+.pop_form input {
+    max-width: 350px;
+    min-width: 150px;
+    height: 55px;
+    border: 5px solid #bcbec0;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: "Ekibastuz";
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+    outline: none;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.pop_form h1 {
+    font-size: 30px;
+    font-family: "BebasBold";
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pop_form button {
+    color: #000;
+    text-decoration: none;
+    background: #ffcb05;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: "Ekibastuz Black";
+    font-weight: bold;
+    font-style: normal;
+    border: none;
+    outline: none;
+}
+
+
+
+
