@@ -1,0 +1,772 @@
+/* LG */
+@media (min-width : 1200px) {
+
+}
+
+/* MD */
+@media (min-width : 992px) and (max-width : 1199px) {
+    /* HEADER */
+    header .header_top_line .call img {
+        right: 32%;
+    }
+    /* HEADER */
+
+    /* main BLOCK */
+    main .block .title {
+        margin-top: 0;
+    }
+    /* main BLOCK */
+
+
+    /* BLOCK_02 */
+    .block_2 .title h1 {
+        font-size: 42px;
+    }
+    /* BLOCK_02 */
+
+
+    /* SLIDER */
+    .slider_1 .slider_item_title {
+        font-size: 26px;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 16px;
+    }
+    /* SLIDER */
+
+}
+
+/* SM */
+@media (min-width : 768px) and (max-width : 991px) {
+    /* HEADER */
+    header .header_top_line .call img {
+        right: 41%;
+    }
+    /* HEADER */
+
+    /* main BLOCK */
+    main .block .title {
+        margin-top: -10px;
+        font-size: 32px;
+    }
+
+    main .block .item {
+        margin-top: -25px;
+        margin-bottom: -50px;
+    }
+    /* main BLOCK */
+
+    /* BLOCK_02 */
+    .block_2 .title {
+        font-size: 22px;
+        padding: 20px 0px 0px 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .block_2 .title h1 {
+        font-size: 30px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .block_2 .body_title {
+        font-size: 18px;
+        padding: 9px;
+        margin-top: 10px;
+    }
+
+    .block_2 .body {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    /* BLOCK_02 */
+
+    /* SLIDER */
+    .slider_1 {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .slider_1 .slider_item_title {
+        font-size: 24px;
+        margin-left: 5%;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 14px;
+        margin-left: 5%;
+    }
+    /* SLIDER */
+
+    /* FORMA */
+    .forma .title {
+        font-size: 42px;
+    }
+    /* FORMA */
+}
+
+/* XS */
+@media (min-width : 420px) and (max-width : 767px) {
+    /* HEADER */
+    header .header_top_line .call p {
+        display: none;
+    }
+
+    header .header_top_line .call img {
+        right: 5%;
+    }
+
+    header .header_top_line .call img:hover {
+        cursor: pointer;
+    }
+    /* HEADER */
+
+    /* MAIN */
+    main {
+        background-image: url("../img/img_10_mob.jpg");
+        background-position: center;
+    }
+    /* MAIN */
+
+    /* START */
+    main .start .title {
+        font-size: 40px;
+        margin-top: 45px;
+    }
+
+    main .start .text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    /* START */
+
+
+    /* PARTNER */
+    main .partner .title {
+        font-size: 40px;
+    }
+
+    main .partner .item {
+        margin-top: 35px;
+    }
+
+    main .partner .item .item_title {
+        margin: 0 auto;
+    }
+
+    main .partner .item .item_text {
+        text-align: center;
+        margin-top: 15px;
+    }
+    /* PARTNER */
+
+    /* main BLOCK */
+    main .block .title {
+        margin-top: 0px;
+        font-size: 26px;
+    }
+
+    main .block .item {
+        margin-top: -25px;
+        margin-bottom: -50px;
+    }
+
+    main .block .item .item_title {
+        color: #000000;
+        text-align: center;
+        margin: 0;
+        margin-top: -50px;
+        margin-bottom: ;
+        font-size: 40px;
+    }
+
+    main .block .item .item_text {
+        color: #000000;
+        margin: 0;
+        text-align: center;
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    /* main BLOCK */
+
+    /* BLOCK_02 */
+    .block_2 {
+        background: url("../img/img_03_mob.jpg");
+        background-position: center;
+        height: 800px;
+    }
+
+    .block_2 .title {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 0px 0px 20px;
+        margin-top: 10px;
+        text-align: center;
+        height: 45px;
+    }
+
+    .block_2 .title h1 {
+        font-size: 24px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .block_2 .body_title {
+        margin: 0 auto;
+        font-size: 18px;
+        padding: 3px;
+        margin-top: 15px;
+        height: 40px;
+    }
+
+    .block_2 .body {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    /* BLOCK_02 */
+
+    /* SLIDER */
+    .slider_1 {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .slider_1 .slider_item_title {
+        font-size: 24px;
+        margin-left: 5%;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 14px;
+        margin-left: 5%;
+    }
+
+    .slider .title {
+        font-size: 40px;
+    }
+    /* SLIDER */
+
+    /* FORMA */
+    .forma .title {
+        font-size: 38px;
+    }
+
+    .forma h2 {
+        font-size: 26px;
+        margin-top: 0;
+    }
+
+    .forma strong {
+        font-size: 26px;
+    }
+
+    .footer_form input {
+        height: 75px;
+        margin-bottom: 10px;
+    }
+
+    .forma .button_01 {
+        font-size: 24px;
+    }
+    /* FORMA */
+
+    /* MAP - contact */
+    .map .contact_map {
+        left: 5%;
+    }
+    /* MAP - contact */
+
+
+
+    /* POP_FORMA */
+
+}
+
+/* Только для блока "FORMA" */
+@media (min-width : 420px) and (max-width : 579px) {
+
+    /* FORMA */
+    .forma .title {
+        font-size: 34px;
+    }
+
+    .forma h2 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .forma strong {
+        font-size: 20px;
+    }
+
+    .footer_form input {
+        height: 75px;
+        margin-bottom: 10px;
+    }
+
+    .forma .button_01 {
+        font-size: 22px;
+    }
+    /* FORMA */
+}
+
+
+/* Только для блока "start" */
+@media (min-width : 420px) and (max-width : 482px) {
+    /* START */
+    main .start .title {
+        font-size: 38px;
+        margin-top: 35px;
+    }
+
+    main .start .text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    /* START */
+
+}
+
+
+
+
+
+
+
+/* Mob */
+@media (min-width : 320px) and (max-width : 419px) {
+    /* HEADER */
+    header .header_top_line .call p {
+        display: none;
+    }
+
+    header .header_top_line .call img {
+        right: 5%;
+    }
+
+    header .header_top_line .call img:hover {
+        cursor: pointer;
+    }
+
+    header .header_center {
+        margin-top: 170px;
+    }
+
+    header .header_center p {
+        font-size: 40px;
+    }
+
+    header .header_center .button_01 {
+        font-size: 18px;
+        max-width: 300px;
+        min-width: 260px;
+        width: 100%;
+    }
+
+    /* HEADER */
+
+    /* MAIN */
+    main {
+        background-image: url("../img/img_10_mob.jpg");
+        background-position: center;
+    }
+    /* MAIN */
+
+
+    /* START */
+    main .start .title {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+
+    main .start .text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    /* START */
+
+
+    /* PARTNER */
+    main .partner .title {
+        font-size: 24px;
+    }
+
+    main .partner .item {
+        margin-top: 35px;
+    }
+
+    main .partner .item .item_title {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 4px;
+    }
+
+    main .partner .item .item_text {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 18px;
+    }
+    /* PARTNER */
+
+
+    /* main BLOCK */
+    main .block .title {
+        margin-top: 0px;
+        font-size: 24px;
+    }
+
+    main .block .item {
+        margin-top: -25px;
+        margin-bottom: -50px;
+    }
+
+    main .block .item .item_title {
+        color: #000000;
+        text-align: center;
+        margin: 0;
+        margin-top: -50px;
+        margin-bottom: ;
+        font-size: 36px;
+    }
+
+    main .block .item .item_text {
+        color: #000000;
+        margin: 0;
+        text-align: center;
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    /* main BLOCK */
+
+    /* BLOCK_02 */
+    .block_2 {
+        background: url("../img/img_03_mob.jpg");
+        background-position: center;
+        height: 800px;
+    }
+
+    .block_2 .title {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 5px 0px 0px 5px;
+        margin-top: 10px;
+        text-align: center;
+        height: 45px;
+    }
+
+    .block_2 .title h1 {
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .block_2 .body_title {
+        margin: 0 auto;
+        font-size: 14px;
+        padding: 3px;
+        margin-top: 15px;
+        height: 40px;
+    }
+
+    .block_2 .body {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    /* BLOCK_02 */
+
+    /* SLIDER */
+    .slider_1 {
+        padding:0;
+    }
+
+    .slider_1 .slider_item_title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .slider .title {
+        font-size: 30px;
+    }
+    /* SLIDER */
+
+    /* FORMA */
+    .forma .title {
+        font-size: 30px;
+    }
+
+    .forma h2 {
+        font-size: 19px;
+        margin-top: 0;
+    }
+
+    .forma strong {
+        font-size: 19px;
+    }
+
+    .footer_form input {
+        width: 95%;
+        height: 65px;
+        margin-bottom: 10px;
+    }
+
+    .forma .button_01 {
+        font-size: 18px;
+    }
+    /* FORMA */
+
+    /* MAP - contact */
+    .map .contact_map {
+        left: 1%;
+        width: 270px;
+    }
+
+    .map .contact_map h1 {
+        font-size: 40px;
+    }
+
+    .map .contact_map strong {
+        font-size: 14px;
+    }
+    /* MAP - contact */
+
+
+    /* POP - форма */
+    .pop_form {
+        height: 350px;
+    }
+    /* POP - форма */
+}
+
+
+
+@media (max-width : 320px) {
+    /* HEADER */
+    header .header_top_line .call p {
+        display: none;
+    }
+
+    header .header_top_line .call img {
+        right: 5%;
+    }
+
+    header .header_top_line .call img:hover {
+        cursor: pointer;
+    }
+
+    header .header_center {
+        margin-top: 170px;
+    }
+
+    header .header_center p {
+        font-size: 40px;
+    }
+
+    header .header_center .button_01 {
+        font-size: 18px;
+        max-width: 300px;
+        min-width: 260px;
+        width: 100%;
+    }
+
+    /* HEADER */
+
+    /* MAIN */
+    main {
+        background-image: url("../img/img_10_mob.jpg");
+        background-position: center;
+    }
+    /* MAIN */
+
+
+    /* START */
+    main .start .title {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+
+    main .start .text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    /* START */
+
+
+    /* PARTNER */
+    main .partner .title {
+        font-size: 24px;
+    }
+
+    main .partner .item {
+        margin-top: 35px;
+    }
+
+    main .partner .item .item_title {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 4px;
+    }
+
+    main .partner .item .item_text {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 18px;
+    }
+    /* PARTNER */
+
+
+    /* main BLOCK */
+    main .block .title {
+        margin-top: 0px;
+        font-size: 24px;
+    }
+
+    main .block .item {
+        margin-top: -25px;
+        margin-bottom: -50px;
+    }
+
+    main .block .item .item_title {
+        color: #000000;
+        text-align: center;
+        margin: 0;
+        margin-top: -50px;
+        margin-bottom: ;
+        font-size: 36px;
+    }
+
+    main .block .item .item_text {
+        color: #000000;
+        margin: 0;
+        text-align: center;
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    /* main BLOCK */
+
+    /* BLOCK_02 */
+    .block_2 {
+        background: url("../img/img_03_mob.jpg");
+        background-position: center;
+        height: 800px;
+    }
+
+    .block_2 .title {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 5px 0px 0px 5px;
+        margin-top: 10px;
+        text-align: center;
+        height: 45px;
+    }
+
+    .block_2 .title h1 {
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .block_2 .body_title {
+        margin: 0 auto;
+        font-size: 14px;
+        padding: 3px;
+        margin-top: 15px;
+        height: 40px;
+    }
+
+    .block_2 .body {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    /* BLOCK_02 */
+
+    /* SLIDER */
+    .slider_1 {
+        padding:0;
+    }
+
+    .slider_1 .slider_item_title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .slider_1 .slider_item_text {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+
+    .bx-pager-item {
+        margin-left: 40%;
+        margin-top: 30px;
+    }
+
+    .slider .title {
+        font-size: 30px;
+    }
+    /* SLIDER */
+
+    /* FORMA */
+    .forma .title {
+        font-size: 30px;
+    }
+
+    .forma h2 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .forma strong {
+        font-size: 16px;
+    }
+
+    .footer_form input {
+        width: 80%;
+        height: 65px;
+        margin-bottom: 10px;
+    }
+
+    .forma .button_01 {
+        font-size: 16px;
+    }
+    /* FORMA */
+
+    /* MAP - contact */
+    .map .contact_map {
+        left: 1%;
+        width: 260px;
+    }
+
+    .map .contact_map h1 {
+        font-size: 40px;
+    }
+
+    .map .contact_map strong {
+        font-size: 14px;
+    }
+    /* MAP - contact */
+
+    /* POP - форма */
+    .pop_form {
+        height: 350px;
+    }
+
+    .pop_form h1 {
+        font-size: 28px;
+    }
+    /* POP - форма */
+}

@@ -1,0 +1,624 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-size: 16px;
+}
+
+
+/* √ŒÀŒ¬¿ */
+
+header {
+	position: relative;
+	width: 100%;
+	background-image: url("../img/header_img.jpg");
+	background-position: center;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	height: 750px;
+
+}
+
+header .header_top_line {
+	height: 65px;
+	width: 100%;
+	background: #000;
+	z-index: 10;
+}
+
+header .header_top_line .logo {
+	float: left;
+	margin-top: 4px;
+}
+
+header .header_top_line .call {
+	float: right;
+	font-size: 30px;
+	font-family: "Ekibastuz Black";
+	color: #fff;
+	margin: 0;
+	margin-top: -15px;
+	margin-left: 5%;
+}
+
+header .header_top_line .call img {
+	position: absolute;
+	right: 5%;
+	top: 12px;
+    display: none;
+}
+
+header .header_top_line .call .call_icon {
+    display: none;
+    position: absolute;
+    right: 0%;
+    top: 65px;
+    width: 320px;
+    height: 50px;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+header .header_top_line .call .call_icon p {
+    display: block;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+header .header_center {
+	position: relative;
+	text-align: center;
+	margin: 0;
+	margin-top: 120px;
+}
+
+header .header_center p {
+	color: #fff;
+	font-size: 70px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+header .header_center .button_01 {
+	width: 0 auto;
+	margin: 0;
+	font-size: 24px;
+	font-family: "Ekibastuz Black";
+	font-weight: Bold;
+	color: #000;
+	max-width: 380px;
+	min-width: 260px;
+	width: 100%;
+	height: 65px;
+	background: #ffcb05;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+/*  ŒÕ“≈Õ“ */
+
+main {
+	position: relative;
+	width: 100%;
+	height: 1420px;
+	background-image: url("../img/img_10.jpg");
+	background-position: center;
+	margin: 0;
+	z-index: 5;
+}
+
+main .start {
+	position: relative;
+	width: 100%;
+	height: 380px;
+	margin: 0;
+	padding: 0;
+}
+
+main .start .title {
+	text-align: center;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-size: 48px;
+	margin-top: 55px;
+	text-transform: uppercase;
+}
+
+main .start .text {
+	margin-top: 15px;
+	font-family: "Ekibastuz-Bold";
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+}
+
+
+main .partner {
+	position: relative;
+	width: 100%;
+	height: 580px;
+	margin: 0;
+	padding: 0;
+}
+
+main .partner .title {
+	text-align: center;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-size: 48px;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+
+main .partner .item {
+	margin-top: 50px;
+}
+
+main .partner .item .item_title {
+	min-width: 158px;
+	max-width: 222px;
+	width: 100%;
+	height: 32px;
+	background: url("../img/bg_article_03.png");
+	font-size: 24px;
+	font-family: "Ekibastuz Black";
+	font-weight: bold;
+	text-align: center;
+	padding: 1px;
+}
+
+main .partner .item .item_text {
+	font-size: 18px;
+	font-family: "Ekibastuz";
+	font-weight: bold;
+	color: #000;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+
+main .block {
+	position: relative;
+	width: 100%;
+	height: 460px;
+	margin: 0;
+	padding: 0;
+}
+
+main .block .title {
+	text-align: center;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 50px;
+	text-transform: uppercase;
+
+}
+
+main .block .item {
+    width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-top: 70px;
+	margin-bottom: -40px;
+}
+
+main .block .item .item_title {
+	font-size: 48px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+main .block .item .item_text {
+	font-size: 18px;
+	font-family: "Ekibastuz";
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-left: 40px;
+	margin-top: -60px;
+	line-height: 1.3;
+}
+
+.block_2 {
+	position: relative;
+	width: 100%;
+	height: 680px;
+	background: url("../img/img_03.jpg");
+	background-position: center;
+	margin-top: -5px;
+	z-index: 1;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.block_2 .title {
+	font-family: "BebasBook";
+	font-size: 30px;
+	text-align: left;
+	line-height: 1.3;
+	padding: 30px 0px 0px 30px;
+	height: 125px;
+}
+
+.block_2 .title h1 {
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-size: 48px;
+	height: 125px;
+	margin: 0;
+	width: 100%;
+}
+
+.block_2 .body_title {
+	font-family: "BebasBold";
+	font-size: 22px;
+	color: #000000;
+	padding: 6px;
+	max-width: 510px;
+	min-width: 280px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	border: 5px solid #2aabdf;
+	border-radius: 25px;
+	margin-top: 50px;
+}
+
+.block_2 .body {
+	font-family: "Ekibastuz";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	width: 90%;
+	margin-top: 30px;
+	margin-left: 5%;
+}
+
+.block_2 .body p {
+	margin-bottom: 0px;
+}
+
+
+.slider {
+	position: relative;
+	width: 100%;
+	height: 460px;
+	background-image: url("../img/img_04.jpg");
+	background-position: center;
+}
+
+.slider .title {
+	text-align: center;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-size: 48px;
+	margin-top: 55px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.slider_1 {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin: 0;
+	padding: 0px 50px 0px 50px;
+	margin-top: 20px;
+}
+
+.bxslider img {
+	margin-top: -15px;
+    margin-left: 0;
+}
+
+.slider_1 .slider_item_title {
+	position: relative;
+	top: 0;
+	font-family: "Ekibastuz-Bold";
+	font-width: bold;
+	font-size: 30px;
+	color: #fff;
+}
+
+.slider_1 .slider_item_text {
+	position: relative;
+	top: 0px;
+	font-family: "Ekibastuz-Bold";
+	font-width: bold;
+	font-size: 18px;
+	color: #fff;
+}
+
+.bx-pager-item {
+	margin-left: 47%;
+	margin-top: 30px;
+}
+
+.bx-pager-link {
+	margin-left: 15px;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid #eeeeee;
+	text-indent: -9999px;
+}
+
+.bx-pager-link:hover {
+	background: #eeeeee;
+}
+
+.bx-next {
+	position: absolute;
+	top: 30%;
+	right: 0;
+	width: 25px;
+	height: 120px;
+	cursor: pointer;
+	background: url("../img/arrow_right.png") no-repeat;
+	margin: 0;
+	text-indent: -9999px;
+}
+
+.bx-prev {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 25px;
+	height: 120px;
+	cursor: pointer;
+	background: url("../img/arrow_left.png") no-repeat;
+	margin: 0;
+	text-indent: -9999px;
+}
+
+
+
+.forma {
+	position: relative;
+	width: 100%;
+	height: 720px;
+	background-image: url("../img/img_05.jpg");
+	background-position: center;
+	background-size: auto;
+	margin: 0;
+	border: none;
+	text-align: center;
+}
+
+.forma .title {
+	text-align: center;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-size: 48px;
+	margin-top: 55px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.forma .text p {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Ekibastuz";
+	font-style: normal;
+	color: #fff;
+	text-align: center;
+}
+
+.forma .text em {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Ekibastuz";
+	font-style: bold;
+	color: #ffdd00;
+}
+
+.footer_form {
+	position: relative;
+	max-width: 550px;
+	min-width: 200px;
+	width: 100%;
+	height: 270px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: -10px;
+}
+
+.footer_form input {
+	width: 100%;
+	height: 75px;
+	border: 5px solid #ebebeb;
+	border-radius: 35px;
+	outline: none;
+	padding-left: 25px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.forma h2 {
+	font-size: 26px;
+	font-family: "Ekibastuz-Bold";
+	font-weight: bold;
+	font-style: normal;
+	color: #fff;
+}
+
+.forma strong {
+	font-size: 26px;
+	font-family: "Ekibastuz-Bold";
+	font-weight: bold;
+	font-style: normal;
+	color: #ffdd00;
+}
+
+
+.forma .button_01 {
+	max-width: 760px;
+	min-width: 200px;
+	width: 100%;
+	height: 68px;
+	border: 5px solid #fff200;
+	border-radius: 35px;
+	outline: none;
+	padding-left: 25px;
+	color: #000;
+	margin-bottom: 20px;
+	background: #ffdd00;
+	margin-bottom: 0px;
+	font-size: 24px;
+	font-family: "Ekibastuz-Bold";
+	font-weight: black;
+	font-style: normal;
+}
+
+
+
+.map {
+	position: relative;
+	width: 100%;
+	height: 570px;
+}
+
+.map .contact_map {
+	position: absolute;
+	width: 310px;
+	height: 260px;
+	background: #fff;
+	bottom: 150px;
+	left: 200px;
+	padding-left: 30px;
+}
+
+.map .contact_map h1 {
+	font-size: 60px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+.map .contact_map p {
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.map .contact_map strong {
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+}
+
+
+/*FORMA*/
+
+
+
+#success-message {
+	margin: 0 auto;
+	max-width: 400px;
+	max-height:220px;
+	padding: 25px;
+	display: none;
+	text-align: left;
+}
+
+#success-message h4 {
+	font-size: 30px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+}
+
+
+.pop_form {
+	margin: 0 auto;
+	max-width: 400px;
+    min-width: 200px;
+    width: 100%;
+	height: 300px;
+	display: none;
+	text-align: center;
+}
+
+.pop_form input {
+	max-width: 350px;
+	min-width: 150px;
+	height: 55px;
+	border: 5px solid #bcbec0;
+	border-radius: 30px;
+	padding-left: 20px;
+	font-size: 18px;
+	font-family: "Ekibastuz";
+	font-weight: normal;
+	font-style: normal;
+	color: #000;
+	outline: none;
+	background: #fff;
+	margin-bottom: 30px;
+}
+
+.pop_form h1 {
+	font-size: 30px;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.pop_form button {
+	color: #000;
+	text-decoration: none;
+	background: #ffcb05;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-family: "Ekibastuz Black";
+	font-weight: bold;
+	font-style: normal;
+	border: none;
+	outline: none;
+}
+
+
+
+
