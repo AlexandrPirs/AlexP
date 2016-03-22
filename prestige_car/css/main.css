@@ -60,10 +60,6 @@ body {
 	background-color: #fff;
 }
 
-section {
-	padding: 0;
-	margin: 0;
-}
 
 .hidden {
 	display: none;
@@ -73,7 +69,9 @@ section {
 	position: relative;
 	background-color: #fff;
 	width: 100%;
-	height: 60px;
+	min-height: 60px;
+	max-height: 200px;
+	height: 100%;
 }
 
 .top_line_header .slogon {
@@ -112,7 +110,7 @@ section {
 header {
 	position: relative;
 	width: 100%;
-	height: 1290px;
+	height: 100%;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	background: url("../img/bg1.jpg") top center no-repeat;
@@ -126,7 +124,30 @@ header {
 header .navigation {
 	position: relative;
 	width: 100%;
-	height: 60px;
+	min-height: 60px;
+	max-height: 500px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.1);
+	-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+
+}
+
+header .navigation i {
+	display: block;
+	float: right;
+	font-size: 25px;
+	margin-top: 17px;
+	color: #fff;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+header .navigation i:hover {
+	color: #99cc66;
+	cursor: pointer;
 }
 
 header .navigation ul {
@@ -159,28 +180,29 @@ header .content {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	padding-top: 100px;
 }
 
 header .content .s_reviews {
-	position: relative;
+	padding-top: 100px;
+	padding-bottom: 50px;
 	width: 100%;
+	min-height: 430px;
 	height: 100%;
 }
 
-header .content .s_reviews img {
+header .content .s_reviews .review_item img {
 	width: 110px;
 	height: 100px;
 }
 
-header .content .s_reviews p {
+header .content .s_reviews .review_item p {
 	margin-left: 70px;
 	margin-top: -40px;
 	margin-bottom: 0px;
 	color: #fff;
 }
 
-header .content .s_reviews a {
+header .content .s_reviews .review_item a {
 	margin-left: 70px;
 	color: #fff;
 	text-decoration: underline;
@@ -191,19 +213,25 @@ header .content .s_reviews a {
 	transition: all .35s;
 }
 
-header .content .s_reviews a:hover {
+header .content .s_reviews .review_item a:hover {
 	text-decoration: none;
 }
 
-header .content .content_center_logo {
+header .content .s_reviews .content_center_logo {
 	position: relative;
 	width: 100%;
 	height: 100%;
 	text-align: center;
 }
 
-header .content .content_center_title {
+header .content .s_reviews .content_center_logo img {
+	width: 250px;
+	height: 240px;
+}
+
+header .content .s_reviews .content_center_title {
 	position: relative;
+	padding-top: 20px;
 	text-align: center;
 	color: #fff;
 }
@@ -222,10 +250,11 @@ header .content .content_center_title p {
 }
 
 header .content .search_auto {
-	position: relative;
+	padding-top: 100px;
+	padding-bottom: 0px;
 	width: 100%;
+	min-height: 250px;
 	height: 100%;
-	margin-top: 100px;
 }
 
 header .content .search_auto h1 {
@@ -233,14 +262,20 @@ header .content .search_auto h1 {
 	font-size: 26px;
 	color: #fff;
 	letter-spacing: 1px;
+	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
 }
 
 header .content .search_auto form {
 	position: relative;
 	width: 100%;
-	height: 60px;
+	min-height: 60px;
+	max-height: 300px;
+	height: 100%;
 	background-color: #fff;
 	padding-top: 15px;
+	-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	box-shadow: -2px 7px 7px rgba(0,0,0,.35);
 }
 
 header .content .search_auto form label input {
@@ -271,10 +306,11 @@ header .content .search_auto form button:hover {
 }
 
 header .content .s_news {
-	position: relative;
+	padding-top: 30px;
+	padding-bottom: 0px;
 	width: 100%;
+	min-height: 300px;
 	height: 100%;
-	margin-top: 50px;
 }
 
 header .content .s_news h1 {
@@ -282,19 +318,41 @@ header .content .s_news h1 {
 	font-size: 26px;
 	color: #fff;
 	letter-spacing: 1px;
+	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
 }
 
 
 header .content .s_news .s_news_item {
-	color: #fff;
-	height: 150px;
+	position: relative;
+	width: 100%;
+	min-height: 100px;
+	height: 100%;
 	border: 1px solid #fff;
 	text-align: center;
+	padding: 10px;
+}
+
+header .content .s_news .s_news_item p {
+	color: #fff;
+	font-size: 14px;
+}
+
+header .content .s_news .s_news_item a {
+	color: #fff;
+	font-size: 14px;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+header .content .s_news .s_news_item a:hover {
+	color: #99cc66;
 }
 
 header .content .ride {
-	position: relative;
+	padding-bottom: 30px;
 	width: 100%;
+	min-height: 300px;
 	height: 100%;
 }
 
@@ -303,19 +361,33 @@ header .content .ride h1 {
 	font-size: 26px;
 	color: #fff;
 	letter-spacing: 1px;
-	margin-top: 50px;
+	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
 }
 
-header .content .ride .ride_item p{
+header .content .ride .ride_item {
+	padding-bottom: 40px;
+}
+
+header .content .ride .ride_item a {
 	color: #fff;
 	font-size: 12px;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	line-height: 12px;
+}
+
+header .content .ride .ride_item a:hover {
+	color: #99cc66;
 }
 
 
 
 footer {
 	width: 100%;
-	height: 60px;
+	min-height: 60px;
+	max-height: 100px;
+	height: 100%;
 	padding-top: 20px;
 	font-size: 12px;
 }

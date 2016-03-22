@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
 	<link rel="stylesheet" href="libs/owl/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
 	
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -56,6 +57,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
+						<i class="fa fa-bars hidden-md hidden-lg"></i>
+
 						<ul>
 							<li><a href="#">Главная</a></li>
 							<li><a href="#">Каталог автомобилей</a></li>
@@ -72,44 +75,43 @@
 		<div class="content">
 			<div class="container">
 				<div class="row">
+
+					<section class="s_reviews"/>
 					<div class="col-md-4">
-						<div class="s_reviews">
-							<div class="owl-carousel">
+						<div class="owl-carousel_1">
 
-								<!-- ITEM1 -->
-								<div>
-									<div class="review_item">
-										<img src="img/icon_user_reviews.png" alt="">
+							<!-- ITEM1 -->
+							<div>
+								<div class="review_item">
+									<img src="img/icon_user_reviews.png" alt="">
 
-										<p>«Я был поражен уровнем сервиса,
-											действующим в компании.
-											Ребята приятно удивили
-											ценами в самый разгар сезона, 
-											буду обращаться еще.»
-										</p>
+									<p>«Я был поражен уровнем сервиса,
+										действующим в компании.
+										Ребята приятно удивили
+										ценами в самый разгар сезона, 
+										буду обращаться еще.»
+									</p>
 
-										<a href="">узнать больше</a>
-									</div>
+									<a href="">узнать больше</a>
 								</div>
-
-								<!-- ITEM2 -->
-								<div>
-									<div class="review_item">
-										<img src="img/icon_user_reviews.png" alt="">
-
-										<p>«Я был поражен уровнем сервиса,
-											действующим в компании.
-											Ребята приятно удивили
-											ценами в самый разгар сезона, 
-											буду обращаться еще.»
-										</p>
-
-										<a href="">узнать больше</a>
-									</div>
-								</div>
-
-
 							</div>
+
+							<!-- ITEM2 -->
+							<div>
+								<div class="review_item">
+									<img src="img/icon_user_reviews.png" alt="">
+
+									<p>«Я был поражен уровнем сервиса,
+										действующим в компании.
+										Ребята приятно удивили
+										ценами в самый разгар сезона, 
+										буду обращаться еще.»
+									</p>
+
+									<a href="">узнать больше</a>
+								</div>
+							</div>
+
 						</div>
 					</div>
 
@@ -125,129 +127,190 @@
 							<p>rent a car</p>
 						</div>
 					</div>
+				</section>
 
-					<div class="col-md-12">
-						<div class="search_auto">
-							<h1>Подбор автомобилей</h1>
 
-							<form action="">
-								<div class="col-md-3">
-									<label>
-										<input type="text" name="name" placeholder="место получения" required />
-									</label>
-								</div>
 
-								<div class="col-md-2">
-									<label>
-										<input type="text" name="name" placeholder="дата/время" required />
-									</label>
-								</div>
-								<div class="col-md-3">
-									<label>
-										<input type="text" name="name" placeholder="место возврата" required />
-									</label>
-								</div>
-								<div class="col-md-2">
-									<label>
-										<input type="text" name="name" placeholder="дата/время" required />
-									</label>
-								</div>
-								<div class="col-md-2">
-									<button class="button">подобрать авто</button>
-								</div>
-							</form>
-						</div>
+
+
+
+
+
+
+				<section class="search_auto">
+
+					<div class="col-sm-12">
+						<h1>Подбор автомобилей</h1>
 					</div>
 
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<form action="">
+							<div class="col-md-3">
+								<label>
+									<input type="text" name="go_map" placeholder="место получения" required />
+								</label>
+							</div>
+
+							<div class="col-md-2">
+								<label>
+									<input type="text" name="date" placeholder="дата/время" required />
+								</label>
+							</div>
+							<div class="col-md-3">
+								<label>
+									<input type="text" name="back_map" placeholder="место возврата" required />
+								</label>
+							</div>
+							<div class="col-md-2">
+								<label>
+									<input type="date" name="calendar" value="2016-03-08"/>
+								</label>
+							</div>
+							<div class="col-md-2">
+								<button class="button">подобрать авто</button>
+							</div>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="s_news">
+
 					<div class="col-md-12">
-						<div class="s_news">
-							<h1>Новости и мероприятия Черногории</h1>
-
-							<div class="col-md-4">
-								<div class="s_news_item">News</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="s_news_item">News</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="s_news_item">News</div>
-							</div>
-						</div>
+						<h1>Новости и мероприятия Черногории</h1>
 					</div>
 
-					<div class="col-md-12">
-						<div class="ride">
-							<h1>Куда поехать в Черногории?</h1>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="owl-carousel_2">
 
-							<div class="col-md-2 col-md-offset-2">
-								<div class="ride_item">
-									<p>Остров Святого Стефана
-										Пляжи Черногории
-										Монастырь Острог
-										Парк Дурмитор
-										Курорт Жабляк
-										Отдых с детьми в Черногории
-									</p>
+							<!-- ITEM1 -->
+							<div>											
+								<div class="s_news_item">
+									<p>«Я был поражен уровнем сервиса,
+										действующим в компании.
+										Ребята приятно удивили
+										ценами в самый разгар сезона, 
+										буду обращаться еще.»</p>
+
+										<a href="">узнать больше</a>
+									</div>
 								</div>
-							</div>
-							
-							<div class="col-md-2 col-md-offset-1">
-								<div class="ride_item">
-									<p>Остров Святого Стефана
-										Пляжи Черногории
-										Монастырь Острог
-										Парк Дурмитор
-										Курорт Жабляк
-										Отдых с детьми в Черногории
-									</p>
+
+								<!-- ITEM2 -->
+								<div>					
+									<div class="s_news_item">
+										<p>«Я был поражен уровнем сервиса,
+											действующим в компании.
+											Ребята приятно удивили
+											ценами в самый разгар сезона, 
+											буду обращаться еще.»</p>
+
+											<a href="">узнать больше</a>
+										</div>
+									</div>
+
+									<!-- ITEM3 -->
+									<div>					
+										<div class="s_news_item">
+											<p>«Я был поражен уровнем сервиса,
+												действующим в компании.
+												Ребята приятно удивили
+												ценами в самый разгар сезона, 
+												буду обращаться еще.»</p>
+
+												<a href="">узнать больше</a>
+											</div>
+										</div>
+
+										<!-- ITEM4 -->
+										<div>					
+											<div class="s_news_item">
+												<p>«Я был поражен уровнем сервиса,
+													действующим в компании.
+													Ребята приятно удивили
+													ценами в самый разгар сезона, 
+													буду обращаться еще.»</p>
+
+													<a href="">узнать больше</a>
+												</div>
+											</div>
+
+
+
+
+										</div>
+									</div>
+								</section>
+
+
+								<section class="ride">
+									<div class="col-md-12">
+										<h1>Куда поехать в Черногории?</h1>
+
+										<div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-1 col-xs-12">
+											<div class="ride_item">
+												<a href="#">Остров Святого Стефана
+													Пляжи Черногории
+													Монастырь Острог
+													Парк Дурмитор
+													Курорт Жабляк
+													Отдых с детьми в Черногории</a>
+												</div>
+											</div>
+
+											<div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-12">
+												<div class="ride_item">
+													<a href="#">Горад Котор
+														Герцег - Нови
+														Старый город в Черногории
+														Остров Цветов в Черногории
+														Достопримечательности в Тивате
+														Остров Святого Георгия (Свети Джордже)</a>
+													</div>
+												</div>
+
+												<div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-12">
+													<div class="ride_item">
+														<a href="#">Гора Ловчен
+															Каньон реки ТараИгало 
+															Черногории Мост Джурджевича
+															Скадарское озеро в Черногории
+															Биоградская гора в Черногории
+															Бока – Которский залив</a>
+														</div>
+													</div>
+
+												</div>
+											</section>
+
+										</div>
+									</div>
 								</div>
-							</div>
+							</header>
 
-							<div class="col-md-2 col-md-offset-1">
-								<div class="ride_item">
-									<p>Остров Святого Стефана
-										Пляжи Черногории
-										Монастырь Острог
-										Парк Дурмитор
-										Курорт Жабляк
-										Отдых с детьми в Черногории
-									</p>
+
+
+							<footer>
+								<div class="container">
+									<div class="row">
+										<div class="copyright">
+											2016-Prestige Car Group
+										</div>
+
+										<div class="footer_slogan">
+											Аренда автомобилей в Черногории по самым низким ценам. Самый большой автомпарк в Черногории.
+										</div>
+									</div>
 								</div>
+							</footer>
+
+
+
+							<div class="hidden"></div>
+
+							<div class="loader">
+								<div class="loader_inner"></div>
 							</div>
-
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</header>
-
-
-
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="copyright">
-					2016-Prestige Car Group
-				</div>
-
-				<div class="footer_slogan">
-					Аренда автомобилей в Черногории по самым низким ценам. Самый большой автомпарк в Черногории.
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-
-	<div class="hidden"></div>
-
-	<div class="loader">
-		<div class="loader_inner"></div>
-	</div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
