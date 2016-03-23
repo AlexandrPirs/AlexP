@@ -69,9 +69,7 @@ body {
 	position: relative;
 	background-color: #fff;
 	width: 100%;
-	min-height: 40px;
-	max-height: 200px;
-	height: 100%;
+	height: 40px;
 }
 
 .top_line_header .slogon {
@@ -85,6 +83,7 @@ body {
 
 .top_line_header .header_phone {
 	float: right;
+	height: 40px;
 }
 
 .top_line_header .header_phone p {
@@ -107,11 +106,10 @@ body {
 	margin: 0;
 }
 
-/*----------------------------------------------- НАЧАЛО INDEX.html */
-
-header {
+.wrapper {
 	position: relative;
 	width: 100%;
+	min-height: 1000px;
 	height: 100%;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
@@ -123,7 +121,8 @@ header {
 	background-size: cover; /* CSS3 */
 }
 
-header .navigation {
+
+.wrapper header {
 	position: relative;
 	width: 100%;
 	min-height: 30px;
@@ -133,38 +132,37 @@ header .navigation {
 	-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
 	-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
 	box-shadow: -2px 7px 7px rgba(0,0,0,.35);
-
 }
 
-header .navigation i {
+.wrapper header .navigation i {
 	display: block;
-	float: right;
 	font-size: 20px;
 	margin-top: 5px;
 	color: #fff;
+	float: right;
 	-webkit-transition: all .55s;
 	-o-transition: all .35s;
 	transition: all .35s;
 }
 
-header .navigation i:hover {
+.wrapper header .navigation i:hover {
 	color: #99cc66;
 	cursor: pointer;
 }
 
-header .navigation ul {
+.wrapper header .navigation ul {
 	padding-left: 0px;
 	margin-top: 14px;
 	list-style-type: none;
 	float: right;
 }
 
-header .navigation ul li {
+.wrapper header .navigation ul li {
 	float: left;
 	margin-left: 20px;
 }
 
-header .navigation ul li a {
+.wrapper header .navigation ul li a {
 	color: #fff;
 	font-size: 14px;
 	-webkit-transition: all .55s;
@@ -172,40 +170,32 @@ header .navigation ul li a {
 	transition: all .35s;
 }
 
-header .navigation ul li a:hover {
+.wrapper header .navigation ul li a:hover {
 	color: #99cc66;
 	text-decoration: none;
 	border-bottom: 1px solid #99cc66;
 	padding-bottom: 4px;
 }
 
-header .content {
+
+.wrapper .reviews_and_logo {
 	position: relative;
-	width: 100%;
-	height: 100%;
+	padding: 40px 0px;
 }
 
-header .content .s_reviews {
-	padding-top: 100px;
-	padding-bottom: 50px;
-	width: 100%;
-	min-height: 430px;
-	height: 100%;
-}
-
-header .content .s_reviews .review_item img {
+.wrapper .reviews_and_logo .s_review_item img {
 	width: 110px;
 	height: 100px;
 }
 
-header .content .s_reviews .review_item p {
+.wrapper .reviews_and_logo .s_review_item p {
 	margin-left: 70px;
 	margin-top: -40px;
 	margin-bottom: 0px;
 	color: #fff;
 }
 
-header .content .s_reviews .review_item a {
+.wrapper .reviews_and_logo .s_review_item a {
 	margin-left: 70px;
 	color: #fff;
 	text-decoration: underline;
@@ -216,52 +206,45 @@ header .content .s_reviews .review_item a {
 	transition: all .35s;
 }
 
-header .content .s_reviews .review_item a:hover {
+.wrapper .reviews_and_logo .s_review_item a:hover {
 	text-decoration: none;
 	color: #99cc66;
 }
 
-header .content .s_reviews .content_center_logo {
-	position: relative;
-	width: 100%;
-	height: 100%;
+.wrapper .reviews_and_logo .logo {
 	text-align: center;
 }
 
-header .content .s_reviews .content_center_logo img {
-	width: 250px;
-	height: 240px;
-}
 
-header .content .s_reviews .content_center_title {
+.wrapper .title_center {
 	position: relative;
-	padding-top: 20px;
-	text-align: center;
+	padding: 30px 0px;
 	color: #fff;
+	text-align: center;
 }
 
-header .content .content_center_title h1 {
+.wrapper .title_center h1 {
 	margin: 0;
 	font-size: 75px;
 	letter-spacing: 3px;
 }
 
-header .content .content_center_title p {
+.wrapper .title_center p {
 	margin: 0;
-	margin-left: 30%;
+	margin-left: 25%;
 	margin-top: -30px;
 	font-size: 30px;
 }
 
-header .content .search_auto {
-	padding-top: 100px;
-	padding-bottom: 0px;
-	width: 100%;
-	min-height: 250px;
-	height: 100%;
+
+.wrapper .search_auto {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 30px;
 }
 
-header .content .search_auto h1 {
+.wrapper .search_auto .search_auto_title {
+	padding-bottom: 15px;
 	text-align: left;
 	font-size: 26px;
 	color: #fff;
@@ -269,64 +252,64 @@ header .content .search_auto h1 {
 	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
 }
 
-header .content .search_auto form {
+.wrapper .search_auto form {
 	position: relative;
 	width: 100%;
-	min-height: 300px;
-	max-height: 500px;
+	min-height: 155px;
 	height: 100%;
 	background-color: #fff;
-	padding-top: 15px;
 	-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
 	-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
 	box-shadow: -2px 7px 7px rgba(0,0,0,.35);
 }
 
-header .content .search_auto form label input {
+.wrapper .search_auto form input {
 	width: 100%;
 	outline: none;
 	text-align: center;
-	font-size: 14px;
+	font-size: 12px;
+	height: 31px;
+	border: 2px solid #666;
+	margin-top: 15px;
 }
 
-header .content .search_auto form button {
+.wrapper .search_auto form .button {
 	width: 100%;
-	height: 30px;
-	background-color: #99cc66;
-	text-align: center;
 	outline: none;
+	text-align: center;
+	font-style: 12px;
+	height: 31px;
 	border: none;
+	background-color: #99cc66;
 	color: #fff;
-	font-style: 14px;
+	margin-top: 15px;
 	-webkit-transition: all .55s;
 	-o-transition: all .35s;
 	transition: all .35s;
 }
 
-header .content .search_auto form button:hover {
+.wrapper .search_auto form .button:hover {
 	background-color: #fff;
-	border: 1px solid #99cc66;
+	border: 2px solid #99cc66;
 	color: #99cc66;
 }
 
-header .content .s_news {
-	padding-top: 30px;
-	padding-bottom: 0px;
-	width: 100%;
-	min-height: 300px;
-	height: 100%;
+
+.wrapper .s_news {
+	position: relative;
+	padding: 30px 0px;
 }
 
-header .content .s_news h1 {
+.wrapper .s_news .s_news_title {
+	padding-bottom: 15px;
 	text-align: left;
 	font-size: 26px;
 	color: #fff;
 	letter-spacing: 1px;
-	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
+	text-shadow: 2px 7px 7px rgba(0,0,0,.35)
 }
 
-
-header .content .s_news .s_news_item {
+.wrapper .s_news .s_news_item {
 	position: relative;
 	width: 100%;
 	min-height: 160px;
@@ -336,12 +319,12 @@ header .content .s_news .s_news_item {
 	padding: 10px;
 }
 
-header .content .s_news .s_news_item p {
-	color: #fff;
+.wrapper .s_news .s_news_item p {
 	font-size: 14px;
+	color: #fff;
 }
 
-header .content .s_news .s_news_item a {
+.wrapper .s_news .s_news_item a {
 	color: #fff;
 	font-size: 14px;
 	-webkit-transition: all .55s;
@@ -349,36 +332,31 @@ header .content .s_news .s_news_item a {
 	transition: all .35s;
 }
 
-header .content .s_news .s_news_item a:hover {
+.wrapper .s_news .s_news_item a:hover {
 	color: #99cc66;
 }
 
-header .content .ride {
-	padding-bottom: 30px;
-	width: 100%;
-	min-height: 300px;
-	height: 100%;
+.wrapper .ride {
+	position: relative;
+	padding: 30px 0px;
 }
 
-header .content .ride h1 {
+.wrapper .ride .ride_title {
+	padding-bottom: 15px;
 	text-align: left;
 	font-size: 26px;
 	color: #fff;
 	letter-spacing: 1px;
-	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
-	margin-bottom: 0px;
+	text-shadow: 2px 7px 7px rgba(0,0,0,.35)
 }
 
-header .content .ride .ride_item {
-	padding-bottom: 40px;
-}
-
-header .content .ride .ride_item ul {
+.wrapper .ride .ride_item ul {
 	list-style-type: none;
-	padding-left: 0px;
+	padding: 0px;
+	margin: 0;
 }
 
-header .content .ride .ride_item ul li a {
+.wrapper .ride .ride_item ul li a {
 	color: #fff;
 	font-size: 12px;
 	-webkit-transition: all .55s;
@@ -387,140 +365,29 @@ header .content .ride .ride_item ul li a {
 	line-height: 12px;
 }
 
-header .content .ride .ride_item a:hover {
+.wrapper .ride .ride_item ul li a:hover {
 	color: #99cc66;
 }
 
-/*----------------------------------------------- КОНЕЦ INDEX.html */
-
-
-
-
-/*----------------------------------------------- НАЧАЛО CATALOG.html */
-.header_catalog {
-	position: relative;
-	width: 100%;
-	min-height: 1000px;
-	height: 100%;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	background: url("../img/catalog_bg.jpg") top center no-repeat;
-	background-attachment: fixed;
-	-moz-background-size: cover; /* Firefox до 4.0 */
-	-webkit-background-size: cover; /* Safari и Chrome */
-	-o-background-size: cover; /* Opera до версии 10.53 */
-	background-size: cover; /* CSS3 */
-}
-
-header .content_catalog {
-	position: relative;
-	width: 100%;
-	height: 100%
-}
-
-header .content_catalog .top_line_catalog {
-	position: relative;
-	width: 100%;
-	min-height: 30px;
-	height: 100%;
-	background-color: rgba(2555,255,255,0.6);
-	-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
-	-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
-	box-shadow: -2px 7px 7px rgba(0,0,0,.35);
-}
-
-header .content_catalog .top_line_catalog .title_catalog {
-	float: left;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: normal;
-	color: #fff;
-	padding-top: 7px;
-	padding-bottom: 7px;
-}
-
-header .content_catalog .catalog_price {
-	position: relative;
-	padding: 40px 0px;
-	width: 100%;
-	height: 100%;
-}
-
-header .content_catalog .catalog_price .catalog_item {
-	position: relative;
-	width: 100%;
-	min-height: 200px;
-	height: 100%;
-}
-
-header .content_catalog .catalog_price .catalog_item .catalog_item_img {
-	min-width: 280px;
-	min-height: 170px;
-	max-width: 360px;
-	max-height: 216px;
-	width: 100%;
-	height: 100%;
-}
-
-header .content_catalog .catalog_price .catalog_item .catalog_item_img img {
-	width: 100%;
-	height: 100%;
-}
-
-header .content_catalog .catalog_price .catalog_item .catalog_item_icons {
-	margin-top: 20px;	
-}
-
-header .content_catalog .catalog_price .catalog_item .catalog_item_icons img {
-	float: left;
-	min-height: 20px;
-	min-width: 20px;
-	max-width: 35px;
-	max-height: 35px;
-	height: 100%;
-	width: 100%;
-}
-
-header .content_catalog .catalog_price .catalog_item p {
-	float: right;
-	padding-right: 10px;
-	font-size: 20px;
-	margin: 0;
-	margin-top: 23px;
-}
-
-
-/*----------------------------------------------- КОНЕЦ CATALOG.html */
-
 footer {
-	width: 100%;
-	min-height: 60px;
-	max-height: 100px;
-	height: 100%;
-	padding-top: 20px;
-	font-size: 12px;
+	position: relative;
+	height: 40px;
 }
 
 footer .copyright {
+	margin-top: 10px;
 	float: left;
 	color: #666;
+	font-size: 14px;
 }
 
 footer .footer_slogan {
+	margin-top: 10px;
 	float: right;
+	font-size: 14px;
 	color: #666;
 	text-align: right;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

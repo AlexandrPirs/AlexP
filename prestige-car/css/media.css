@@ -1,0 +1,181 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.wrapper .title_center p {
+		margin-left: 35%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+	.wrapper header .navigation ul {
+		display: none;
+		float: left;
+	}
+	.wrapper header .navigation ul li {
+		float: none;
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.wrapper .title_center p {
+		margin-left: 45%;
+	}
+
+	footer .copyright {
+	margin-top: 13px;
+	font-size: 10px;
+}
+
+footer .footer_slogan {
+	margin-top: 13px;
+	font-size: 10px;
+
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	.top_line_header .slogon {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+
+	.wrapper .title_center h1 {
+		font-size: 60px;
+	}
+
+	.wrapper .title_center p {
+		margin-left: 0px;
+		text-align: center;
+		margin-top: -20px;	
+	}
+
+	.wrapper .search_auto form {
+		min-height: 245px;
+	}
+
+	.wrapper .search_auto .search_auto_title {
+		font-size: 20px;
+	}
+
+	.wrapper .s_news .s_news_title {
+		font-size: 20px;
+	}
+
+	.wrapper .ride .ride_title {
+		font-size: 20px;
+	}
+
+	footer .footer_slogan {
+		display: none;
+	}
+	
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	.top_line_header .slogon {
+		margin-top: 14px;
+		font-size: 10px;
+	}
+
+	.top_line_header .header_phone p {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+
+	.top_line_header .header_phone span {
+		font-size: 8px;
+	}
+
+	.wrapper .title_center h1 {
+		font-size: 40px;
+	}
+
+	.wrapper .title_center p {
+		margin-left: 0px;
+		text-align: center;
+		margin-top: -10px;	
+	}
+
+	.wrapper .search_auto .search_auto_title {
+		font-size: 14px;
+	}
+
+	.wrapper .s_news .s_news_title {
+		font-size: 14px;
+	}
+
+	.wrapper .ride .ride_title {
+		font-size: 14px;
+	}
+
+	.wrapper .ride .ride_item {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,18 @@
+
+@font-face {
+	font-family: "Geometria"; /* имя шрифта для CSS правил */
+	src: local("Geometria"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/Geometria/Geometria.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Geometria-Bold"; /* имя шрифта для CSS правил */
+	src: local("Geometria-Bold"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/Geometria/Geometria-Bold.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Geometria-BoldItalic"; /* имя шрифта для CSS правил */
+	src: local("Geometria-BoldItalic"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/Geometria/Geometria-BoldItalic.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
