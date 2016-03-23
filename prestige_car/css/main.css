@@ -69,18 +69,18 @@ body {
 	position: relative;
 	background-color: #fff;
 	width: 100%;
-	min-height: 60px;
+	min-height: 40px;
 	max-height: 200px;
 	height: 100%;
 }
 
 .top_line_header .slogon {
 	float: left;
-	font-size: 26px;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: normal;
 	color: #99cc66;
-	margin-top: 10px;
+	margin-top: 7px;
 }
 
 .top_line_header .header_phone {
@@ -89,7 +89,7 @@ body {
 
 .top_line_header .header_phone p {
 	text-align: right;
-	font-size: 26px;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: normal;
 	color: #99cc66;
@@ -100,7 +100,7 @@ body {
 
 .top_line_header .header_phone span {
 	text-align: right;
-	font-size: 14px;
+	font-size: 12px;
 	font-style: normal;
 	font-weight: normal;
 	color: #666;
@@ -124,7 +124,7 @@ header {
 header .navigation {
 	position: relative;
 	width: 100%;
-	min-height: 60px;
+	min-height: 30px;
 	max-height: 500px;
 	height: 100%;
 	background-color: rgba(0,0,0,0.1);
@@ -137,8 +137,8 @@ header .navigation {
 header .navigation i {
 	display: block;
 	float: right;
-	font-size: 25px;
-	margin-top: 17px;
+	font-size: 20px;
+	margin-top: 5px;
 	color: #fff;
 	-webkit-transition: all .55s;
 	-o-transition: all .35s;
@@ -152,6 +152,7 @@ header .navigation i:hover {
 
 header .navigation ul {
 	padding-left: 0px;
+	margin-top: 14px;
 	list-style-type: none;
 	float: right;
 }
@@ -215,6 +216,7 @@ header .content .s_reviews .review_item a {
 
 header .content .s_reviews .review_item a:hover {
 	text-decoration: none;
+	color: #99cc66;
 }
 
 header .content .s_reviews .content_center_logo {
@@ -325,7 +327,7 @@ header .content .s_news h1 {
 header .content .s_news .s_news_item {
 	position: relative;
 	width: 100%;
-	min-height: 100px;
+	min-height: 160px;
 	height: 100%;
 	border: 1px solid #fff;
 	text-align: center;
@@ -362,13 +364,19 @@ header .content .ride h1 {
 	color: #fff;
 	letter-spacing: 1px;
 	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
+	margin-bottom: 0px;
 }
 
 header .content .ride .ride_item {
 	padding-bottom: 40px;
 }
 
-header .content .ride .ride_item a {
+header .content .ride .ride_item ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+header .content .ride .ride_item ul li a {
 	color: #fff;
 	font-size: 12px;
 	-webkit-transition: all .55s;

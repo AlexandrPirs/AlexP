@@ -12,7 +12,7 @@
 	header .navigation ul {
 		display: none;
 		float: left;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
 	}
 
 	header .navigation ul li {
@@ -20,8 +20,6 @@
 		margin-left: 0px;
 		margin-top: 10px;
 	}
-
-
 
 	header .content .search_auto {
 		padding-top: 0px;
@@ -62,20 +60,9 @@
 	}
 
 	footer {
-		padding-top: 10px;
+		padding-top: 23px;
+		font-size: 10px;
 	}
-
-	footer .copyright {
-		float: none;
-		text-align: center;
-	}
-
-	footer .footer_slogan {
-		float: none;
-		text-align: center;
-	}
-
-
 }
 
 /* Small Devices, Tablets */
@@ -104,17 +91,17 @@
 	}
 
 	.top_line_header .slogon {
-		float: none;
-		text-align: center;
-	}
-
-	.top_line_header .header_phone {
-		float: none;
-		text-align: center;
+		font-size: 14px;
+		margin-top: 10px;
 	}
 
 	.top_line_header .header_phone p {
-		text-align: center;
+		font-size: 14px;
+		margin-top: 5px;
+	}	
+
+	.top_line_header .header_phone span {
+		font-size: 12px;
 	}
 
 	header .content .content_center_title h1 {
@@ -136,23 +123,90 @@
 		font-size: 24px;
 	}
 
+	header .content .ride {
+		padding-bottom: ;
+	}
+
 	header .content .ride h1 {
 		font-size: 24px;
 	}
 
 	header .content .ride .ride_item {
 		text-align: center;
+		padding-bottom: 0px;
+	}
+
+	footer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 10px;
+	}
+
+	footer .copyright {
+		float: none;
+		text-align: center;
+	}
+
+	footer .footer_slogan {
+		margin-top: 5px;
+		float: none;
+		text-align: center;	
 	}
 	
-	
-
 }
 
-}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+	.top_line_header .slogon {
+		display: none;
+		float: none;
+		text-align: center;
+		font-size: 14px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+
+	.top_line_header .header_phone {
+		float: none;
+		text-align: center;
+	}	
+
+	.top_line_header .header_phone p {
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: -10px;
+	}
+
+	.top_line_header .header_phone span {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 10px;
+	}
+
+	header .navigation i {
+		padding-right: 10px;
+	}
+
+	header .content .search_auto h1 {
+		font-size: 18px;
+	}
+
+	header .content .s_news h1 {
+		font-size: 18px;
+	}
+
+	header .content .ride h1 {
+		font-size: 18px;
+	}
+
+	header .content .s_news {
+		padding-top: 10px;
+	}
+
+	header .content .ride {
+		padding-top: 0px;
+	}
 
 }
 
