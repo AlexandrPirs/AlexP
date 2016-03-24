@@ -472,6 +472,13 @@ body {
 	border-bottom: 1px solid #ccc;
 }
 
+.wrapper_catalog .catalog_content .catalog_item .catalog_item_title {
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
 .wrapper_catalog .catalog_content .catalog_item .catalog_item_img {
 	position: relative;
 	text-align: center;
