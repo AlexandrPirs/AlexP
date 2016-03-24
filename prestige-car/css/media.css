@@ -2,15 +2,23 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	/*---------------------------- IDNEX>HTML */
 	.wrapper .title_center p {
 		margin-left: 35%;
 	}
+
+	/*---------------------------- IDNEX>HTML */
+
+	/*------------------------------ CATALOG>HTML */
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_img {
+	}
+	/*------------------------------ CATALOG>HTML */
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-
+	/*---------------------------- IDNEX>HTML */
 	.wrapper header .navigation ul {
 		display: none;
 		float: left;
@@ -24,17 +32,63 @@
 	.wrapper .title_center p {
 		margin-left: 45%;
 	}
+	/*---------------------------- IDNEX>HTML */
+	
+	/*-------------------------- CATALOG>HTML*/
+
+	.wrapper_catalog header .navigation ul {
+		display: none;
+		float: left;
+	}
+	.wrapper_catalog header .navigation ul li {
+		float: none;
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons {
+		position: relative;
+		margin-top: 15px;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons .catalog_icons {
+		padding-bottom: 10px;
+	} 
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button {
+		padding: 0px;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button p {
+		font-size: 16px;
+		padding-right: 0px;
+		margin: 0;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button p strong {
+		font-size: 36px;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button button {
+	width: 100%;
+	font-size: 16px;
+	}
+
+	
+	/*-------------------------- CATALOG>HTML*/
+
 
 	footer .copyright {
-	margin-top: 13px;
-	font-size: 10px;
-}
+		margin-top: 13px;
+		font-size: 10px;
+	}
 
-footer .footer_slogan {
-	margin-top: 13px;
-	font-size: 10px;
+	footer .footer_slogan {
+		margin-top: 13px;
+		font-size: 10px;
 
-}
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -61,6 +115,8 @@ footer .footer_slogan {
 		-ms-animation: none !important;
 		animation: none !important;
 	}
+
+	/*---------------------------- IDNEX>HTML */
 
 	.top_line_header .slogon {
 		font-size: 14px;
@@ -93,6 +149,40 @@ footer .footer_slogan {
 		font-size: 20px;
 	}
 
+	/*---------------------------- IDNEX>HTML */
+
+	
+	/*------------------------------ CATALOG>HTML */
+
+	.wrapper_catalog .catalog_content .catalog_item {
+		border-bottom: none;
+	}
+
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_img {
+		margin-left: 25%;
+	}
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons {
+	margin-left: 16.66666667%;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons .catalog_icons p {
+		font-size: 18px;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button {
+		text-align: center;
+
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button button {
+		width: 40%;
+
+	}
+	    
+	/*------------------------------ CATALOG>HTML */
+
+
 	footer .footer_slogan {
 		display: none;
 	}
@@ -103,6 +193,9 @@ footer .footer_slogan {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	
+
+
+	/*---------------------------- IDNEX>HTML */
 	.top_line_header .slogon {
 		margin-top: 14px;
 		font-size: 10px;
@@ -147,7 +240,32 @@ footer .footer_slogan {
 		width: 100%;
 		padding-bottom: 20px;
 	}
+	/*---------------------------- IDNEX>HTML */
 
+	/*------------------------------ CATALOG>HTML */
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_img {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons {
+	margin-left: 0;
+	width: 100%;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons .catalog_icons p {
+		font-size: 15px;
+		margin-top: 8px;
+	}
+
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button button {
+		width: 60%;
+	}
+
+	.wrapper_catalog .catalog_top .catalog_title {
+		font-size: 24px;
+	}
+	/*------------------------------ CATALOG>HTML */
 
 }
 
