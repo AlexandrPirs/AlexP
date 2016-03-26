@@ -13,6 +13,28 @@
 	.wrapper_catalog .catalog_content .catalog_item .catalog_item_img {
 	}
 	/*------------------------------ CATALOG>HTML */
+
+
+	/*----------------------------- car_booking*/
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_text {
+		padding-top: 60px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons p {
+		font-size: 16px;
+	}
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons img {
+		max-width: 25px;
+		max-height: 25px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_day_sale .car_booking_sale_item p {
+		font-size: 22px;
+	}
+
+
+	/*----------------------------- car_booking*/
 }
 
 /* Medium Devices, Desktops */
@@ -70,12 +92,50 @@
 	}
 
 	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button button {
-	width: 100%;
-	font-size: 16px;
+		width: 100%;
+		font-size: 16px;
 	}
 
 	
 	/*-------------------------- CATALOG>HTML*/
+
+
+
+
+
+	/*----------------------------- car_booking*/
+	.wrapper_car_booking header .navigation ul {
+		display: none;
+		float: left;
+	}
+	.wrapper_car_booking header .navigation ul li {
+		float: none;
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons {
+		padding-top: 60px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons p {
+		font-size: 16px;
+	}
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons img {
+		max-width: 25px;
+		max-height: 25px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_text {
+		font-size: 9px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_day_sale .car_booking_sale_item p {
+		font-size: 16px;
+	}
+
+
+	/*----------------------------- car_booking*/
 
 
 	footer .copyright {
@@ -163,7 +223,7 @@
 		margin-left: 25%;
 	}
 	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons {
-	margin-left: 16.66666667%;
+		margin-left: 16.66666667%;
 	}
 
 	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons .catalog_icons p {
@@ -179,14 +239,87 @@
 		width: 40%;
 
 	}
-	    
+
 	/*------------------------------ CATALOG>HTML */
+	
+	/*----------------------------- car_booking*/
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_text {
+		padding-top: 30px;
+		font-family: "Geometria-Medium"; 
+		color: #fff;
+		font-size: 12px;
+	}
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car {
+		margin-left: 25%;
+	}
+	
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons {
+		margin-left: 16.66666667%;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons img {
+		max-width: 25px;
+		max-height: 25px;
+		margin-top: 3px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons p {
+		font-size: 16px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_day_sale .car_booking_sale_item {
+		padding-bottom: 15px;
+	}
+	
+	.wrapper_car_booking .car_booking_content .car_booking_day_sale .car_booking_sale_item img {
+		max-width: 100px;
+		max-height: 100px;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.wrapper_car_booking .car_booking_content .car_booking_services form {
+		font-size: 18px;
+	}
+
+	
+
+	/*----------------------------- car_booking*/
+
+
+
 
 
 	footer .footer_slogan {
 		display: none;
 	}
 	
+}
+
+
+
+
+@media only screen and (max-width : 600px) {
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons p {
+		font-size: 14px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons img {
+		max-width: 20px;
+		max-height: 20px;
+		margin-top: 3px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_services form {
+		font-size: 18px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_services form .car_booking_services_item {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 10px;
+	}
+
 }
 
 
@@ -249,8 +382,8 @@
 	}
 
 	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons {
-	margin-left: 0;
-	width: 100%;
+		margin-left: 0;
+		width: 100%;
 	}
 
 	.wrapper_catalog .catalog_content .catalog_item .catalog_item_icons .catalog_icons p {
@@ -266,6 +399,54 @@
 		font-size: 24px;
 	}
 	/*------------------------------ CATALOG>HTML */
+
+
+	/*----------------------------- car_booking*/
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_text {
+		padding-top: 30px;
+		font-family: "Geometria-Medium"; 
+		color: #fff;
+		font-size: 10px;
+	}
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons p {
+		font-size: 14px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons img {
+		max-width: 20px;
+		max-height: 20px;
+		margin-top: 4px;
+	}
+
+
+	.wrapper_car_booking .car_booking_content .car_booking_day_sale .car_booking_sale_item p {
+		font-size: 12px;
+	}
+
+	.wrapper_car_booking .car_booking_top .car_booking_title {
+		font-size: 24px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_services form {
+		font-size: 16px;
+	}
+
+	.wrapper_car_booking .car_booking_content .car_booking_services form .car_booking_services_item {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	/*----------------------------- car_booking*/
 
 }
 
