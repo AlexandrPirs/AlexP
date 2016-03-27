@@ -101,6 +101,7 @@ body {
 
 .top_line_header .header_phone span {
 	text-align: right;
+	font-family: "Geometria-Italic";
 	font-size: 12px;
 	font-style: normal;
 	font-weight: normal;
@@ -248,6 +249,7 @@ body {
 	margin: 0;
 	font-size: 75px;
 	letter-spacing: 3px;
+	text-shadow: 2px 7px 7px rgba(0,0,0,.35);
 }
 
 .wrapper .title_center p {
