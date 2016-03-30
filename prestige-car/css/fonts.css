@@ -28,3 +28,13 @@
 	src: local("Geometria-Italic"), /* проверяем наличие шрифта в ОС пользователя */
 	url("../fonts/Geometria/Geometria-Italic.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
 }
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("../fonts/OpenSans/OpenSans-Regular.eot");
+	src: url("../fonts/OpenSans/OpenSans-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
+	url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

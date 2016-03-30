@@ -91,9 +91,8 @@
 		font-size: 36px;
 	}
 
-	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button button {
-		width: 100%;
-		font-size: 16px;
+	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button a {
+		padding: 3px 20px;
 	}
 
 	
@@ -235,10 +234,7 @@
 
 	}
 
-	.wrapper_catalog .catalog_content .catalog_item .catalog_item_button button {
-		width: 40%;
 
-	}
 
 	/*------------------------------ CATALOG>HTML */
 	

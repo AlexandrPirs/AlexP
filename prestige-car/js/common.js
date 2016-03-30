@@ -1,5 +1,6 @@
 $(function() {
 
+
 	//navigation mob
 	$("header .navigation i").click(function()	{
 		$("header .navigation ul").slideToggle();
@@ -23,7 +24,7 @@ $(function() {
 	});
 
 	//owl2 News
-  $(".owl-carousel_2").owlCarousel({
+	$(".owl-carousel_2").owlCarousel({
 		items : 3,
 		loop : true,
 		//nav : true,
@@ -32,22 +33,37 @@ $(function() {
 		navText : "",
 		margin : 30,
 		responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:2,
-            nav:false
-        },
-        1000:{
-            items:3,
-            nav:true,
-            loop:false
-        }
-    }
+		responsive:{
+			0:{
+				items:1,
+				nav:true
+			},
+			600:{
+				items:2,
+				nav:false
+			},
+			1000:{
+				items:3,
+				nav:true,
+				loop:false
+			}
+		}
 	});
+
+	//
+	// initialize input widgets first
+    $('#datepairExample .time').timepicker({
+        'showDuration': true,
+        'timeFormat': 'g:ia'
+    });
+
+    $('#datepairExample .date').datepicker({
+        'format': 'yyyy-m-d',
+        'autoclose': true
+    });
+
+    // initialize datepair
+    $('#datepairExample').datepair();
 
 
 	//E-mail Ajax Send
