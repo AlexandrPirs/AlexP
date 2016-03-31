@@ -307,6 +307,25 @@ body {
 	transition: all .35s;
 }
 
+.wrapper .search_auto form select {
+	width: 48%;
+	outline: none;
+	text-align: center;
+	font-size: 12px;
+	height: 31px;
+	border: 2px solid #99cc66;
+	margin-bottom: 10px;
+	background-color: #fff;
+	color: #000;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.wrapper .search_auto form .select_min {
+	margin-left: 4%;
+}
+
 .wrapper .search_auto form input:hover {
 	
 }
