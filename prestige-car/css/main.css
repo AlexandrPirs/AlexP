@@ -550,7 +550,6 @@ body {
 	border: 2px solid #99cc66;
 }
 
-
 .wrapper_catalog .catalog_content .catalog_item {
 	position: relative;
 	margin-top: 30px;
@@ -842,7 +841,7 @@ body {
 		color: #fff;
 		margin: 0;
 		margin-top: 2px;
-		padding-left: 40px;
+		padding-left: 20px;
 	}
 
 
