@@ -1232,6 +1232,11 @@ body {
 		font-weight: normal;
 	}
 
+	#hidden_form .bottom_form_title .details .details_item .deposit {
+		border-top: 1px solid #fff;
+		padding-top: 5px;
+	}
+
 	#hidden_form .bottom_form_content {
 		position: relative;
 		width: 100%;
