@@ -985,7 +985,7 @@ body {
 
 	#hidden_form {
 		position: relative;
-		height: 930px;
+		height: 940px;
 		max-width: 60%;
 		min-width: 300px;
 		margin-left: 20%;
@@ -1034,6 +1034,7 @@ body {
 		line-height: 24px;
 		font-weight: normal;
 		margin: 0;
+		margin-bottom: 10px;
 	}
 
 	#hidden_form .top_form_content .top_form_content_left p {
@@ -1050,7 +1051,7 @@ body {
 	#hidden_form .top_form_content .top_form_content_left .top_form_item {
 		clear:both; 
 		text-align:right;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 
 	#hidden_form .top_form_content .top_form_content_left .top_form_item span {
@@ -1072,6 +1073,22 @@ body {
 		transition: all .35s;
 	}
 
+	#hidden_form .top_form_content .top_form_content_left .top_form_item select {
+		width: 77px;
+		outline: none;
+		text-align: center;
+		font-size: 12px;
+		height: 26px;
+		border: 2px solid #99cc66;
+		margin-bottom: 10px;
+		background-color: #fff;
+		color: #000;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+
 
 	#hidden_form .top_form_content .top_form_content_right {
 		position: relative;
@@ -1083,6 +1100,7 @@ body {
 		line-height: 24px;
 		font-weight: normal;
 		margin: 0;
+		margin-bottom: 10px;
 		text-align: right;
 	}
 
@@ -1101,7 +1119,7 @@ body {
 	#hidden_form .top_form_content .top_form_content_right .top_form_item {
 		clear:both; 
 		text-align:right;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 
 	#hidden_form .top_form_content .top_form_content_right .top_form_item span {
@@ -1122,12 +1140,28 @@ body {
 		-o-transition: all .35s;
 		transition: all .35s;
 	}
+
+	#hidden_form .top_form_content .top_form_content_right .top_form_item select {
+		width: 77px;
+		outline: none;
+		text-align: center;
+		font-size: 12px;
+		height: 26px;
+		border: 2px solid #99cc66;
+		margin-bottom: 10px;
+		background-color: #fff;
+		color: #000;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
 	
 	#hidden_form .bottom_form_title {
 		position: relative;
 		color: #fff;
 		margin: 0;
-		height: 26px;
+		height: 38px;
+		padding-top: 10px;
 	}
 
 	#hidden_form .bottom_form_title h1 {
@@ -1159,8 +1193,8 @@ body {
 		z-index: 100;
 		display: none;
 		position: absolute;
-		top: 35px;
-		left: 210px;
+		top: 40px;
+		left: 135px;
 		padding: 10px 10px 0px 10px;
 		background-color: rgba(000,000,000,.9);
 	}
