@@ -54,6 +54,10 @@
 	.wrapper .title_center p {
 		margin-left: 45%;
 	}
+
+	.wrapper .search_auto form {
+		min-height: 355px;
+	}
 	/*---------------------------- IDNEX>HTML */
 	
 	/*-------------------------- CATALOG>HTML*/
@@ -192,12 +196,24 @@
 		margin-top: -20px;	
 	}
 
-	.wrapper .search_auto form {
+	/*.wrapper .search_auto form {
 		min-height: 245px;
-	}
+	}*/
 
 	.wrapper .search_auto .search_auto_title {
 		font-size: 20px;
+	}
+	
+	.wrapper .search_auto form select {
+		width: 47%;
+	}
+
+	.wrapper .search_auto form span {
+		font-size: 16px;
+	}
+
+	.wrapper .search_auto form .select_min {
+		margin-left: 6%;
 	}
 
 	.wrapper .s_news .s_news_title {
@@ -331,12 +347,12 @@
 	}
 
 	.top_line_header .header_phone p {
-		margin-top: 5px;
+		margin-top: 10px;
 		font-size: 12px;
 	}
 
 	.top_line_header .header_phone span {
-		font-size: 8px;
+		display: none;
 	}
 
 	.wrapper .title_center h1 {
@@ -355,6 +371,18 @@
 
 	.wrapper .search_auto form .button {
 		font-size: 10px;
+	}
+
+	.wrapper .search_auto form span {
+		font-size: 12px;
+	}
+
+	.wrapper .search_auto form select {
+		width: 45%;
+	}
+
+	.wrapper .search_auto form .select_min {
+		margin-left: 10%;
 	}
 
 	.wrapper .s_news .s_news_title {
