@@ -1,0 +1,12 @@
+
+@font-face {
+	font-family: "HelveticaNeueCyr-Roman"; /* имя шрифта для CSS правил */
+	src: local("HelveticaNeueCyr-Roman"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr-Medium"; /* имя шрифта для CSS правил */
+	src: local("HelveticaNeueCyr-Medium"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}

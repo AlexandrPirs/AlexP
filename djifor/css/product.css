@@ -1,0 +1,208 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "HelveticaNeueCyr-Roman", sans-serif;
+	overflow-x: hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+
+.product {
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.product .product_item {
+	position: relative;
+	height: 320px;
+	border: 1px solid #999;
+	padding: 0;
+}
+
+/* NORM ITEM PRODUCT */
+.product .product_item .product_item_title {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.product .product_item .product_item_title p {
+	margin: 0;
+	padding-top: 35px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+}
+
+.product .product_item .product_item_img {
+	position: relative;
+	width: 100%;
+	height: 125px;
+	margin-top: 27px;
+}
+
+.product .product_item .product_item_img img {
+	display: block;
+	margin: 0 auto;
+}
+
+.product .product_item .product_item_bay {
+	position: relative;
+	margin-top: 26px;
+	width: 100%;
+	height: 70px;
+}
+
+.product .product_item .product_item_bay .product_button_bay {
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #22c4c2;
+	background-color: #fff;
+	background-image: url("../img/bay_bg.png");
+	background-repeat: no-repeat;
+	background-position: center right;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.product .product_item .product_item_bay .product_button_bay:hover {
+	background-color: #22c4c2;
+	color: #fff;
+}
+
+.product .product_item .product_item_bay .product_button_bay:focus {
+	outline: none;
+}
+
+/* SALE ITEM PRODUCT */
+.product .product_item .product_item_sale_title {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	background-image: url("../img/sale_bg.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.product .product_item .product_item_sale_title p {
+	margin: 0;
+	padding-top: 35px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+	line-height: 1.3;
+}
+
+.product .product_item .product_item_bay .product_button_sale_bay {
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #22c4c2;
+	background-color: #fff;
+	background-image: url("../img/bay_bg.png");
+	background-repeat: no-repeat;
+	background-position: center right;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	line-height: 1.3;
+}
+
+.product .product_item .product_item_bay .product_button_sale_bay span {
+	font-size: 14px;
+}
+
+.product .product_item .product_item_bay .product_button_sale_bay:hover {
+	background-color: #22c4c2;
+	color: #fff;
+}
+
+.product .product_item .product_item_bay .product_button_sale_bay:focus {
+	outline: none;
+}

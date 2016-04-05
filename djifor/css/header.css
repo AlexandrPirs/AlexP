@@ -1,0 +1,150 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "HelveticaNeueCyr-Roman", sans-serif;
+	overflow-x: hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+header {
+	position: relative;
+	height: 90px;
+}
+
+header .logo {
+	position: relative;
+	float: left;
+	margin-top: 20px;
+}
+
+header nav {
+	position: relative;
+	margin-top: 16px;
+}
+
+header nav ul {
+	list-style-type: none;
+	padding: 0;
+	float: right;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding-right: 25px;
+}
+
+header nav ul li a {
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+header nav ul li a:hover {
+	text-decoration: none;
+	color: #25bebe;
+	border-bottom: 1px solid #25bebe;
+	padding-bottom: 3px;
+}
+
+header .header_icons {
+	position: relative;
+	margin-top: 30px;
+}
+
+header .header_icons .search {
+	width: 30px;
+	display: inline-block;
+}
+
+header .header_icons .input_search input {
+	display: none;
+	float: left;
+	outline: none;
+	height: 23px;
+	border: 1px solid #25bebe;
+	color: #999;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+header .header_icons .call {
+	width: 30px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+header .header_icons .basket {
+	width: 30px;
+	display: inline-block;
+	margin-left: 15px;
+}
