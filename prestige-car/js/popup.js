@@ -1,11 +1,12 @@
 $(function() {
 
 	//popup magnatic
-		$(".popup_1").magnificPopup({type:"image"});
-		$(".popup_content").magnificPopup({
-			type:"inline",
-			midClick: true,
-		});
+	$(".popup_1").magnificPopup({
+		type : 'image', // Включить плагин
+		gallery : { //Подключение галереи к плагину
+			enabled : true
+		}
+	});
 
 
 	//popup

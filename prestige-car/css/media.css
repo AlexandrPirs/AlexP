@@ -33,12 +33,10 @@
 		font-size: 22px;
 	}
 
-	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car .car_booking_item_car_block_img {
-		max-width: 85px;
-		max-height: 85px;
-		padding-left: 10px;
-		padding-right: 10px;
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car {
+		padding-top: 40px;
 	}
+
 
 
 	/*----------------------------- car_booking*/\
@@ -134,6 +132,10 @@
 		margin-top: 15px;
 	}
 
+	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car .car_booking_item_car_bottom {
+		margin-top: 10px;
+	}
+
 	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons {
 		padding-top: 60px;
 	}
@@ -150,12 +152,6 @@
 		font-size: 9px;
 	}
 
-	.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car .car_booking_item_car_block_img {
-		max-width: 70px;
-		max-height: 70px;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
 
 	.wrapper_car_booking .car_booking_content .car_booking_day_sale .car_booking_sale_item p {
 		font-size: 16px;
@@ -302,6 +298,10 @@
 			margin-bottom: 10px;
 		}
 
+		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car .car_boking_item_car_block {
+			display: b
+		}
+
 
 
 		/*------------------------------ CATALOG>HTML */
@@ -313,8 +313,17 @@
 			color: #fff;
 			font-size: 12px;
 		}
-		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car {
-			margin-left: 25%;
+		
+		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car .car_booking_item_car_top {
+			width: 70%;
+			margin-left: 15%;
+		}
+
+		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car .car_booking_item_car_bottom .car_booking_item_car_bottom_item {
+			padding-right: 15px;
+			padding-left: 15px;
+			width: 20%;
+			margin-left: 10%;
 		}
 
 		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons {
@@ -331,19 +340,6 @@
 			font-size: 16px;
 			float: left;
 			padding-left: 20px;
-		}
-
-		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car {
-			margin-left: 0;
-		}
-
-		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car .car_booking_item_car_block_img {
-			padding-top: 0px;
-			padding-bottom: 13px;
-		}
-
-		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car img {
-			max-width: 500px;
 		}
 
 		.wrapper_car_booking .car_booking_content .car_booking_day_sale .car_booking_sale_item {
@@ -415,8 +411,19 @@
 			width: 100%;
 		}
 
+		#hidden_form .top_form_content .top_form_content_left .top_form_item span {
+			width: 100%;
+			text-align: left;
+		}
+
 		#hidden_form .top_form_content .top_form_content_left .top_form_item select {
 			width: 50%;
+			float: left;
+		}
+
+		#hidden_form .top_form_content .top_form_content_right .top_form_item span {
+			width: 100%;
+			text-align: left;
 		}
 
 		#hidden_form .top_form_content .top_form_content_right h2 {
@@ -429,6 +436,7 @@
 
 		#hidden_form .top_form_content .top_form_content_right .top_form_item select {
 			width: 50%;
+			float: left;
 		}
 
 		#hidden_form .bottom_form_content .bottom_form_content_left {
@@ -490,6 +498,10 @@
 
 
 		/*---------------------------- IDNEX>HTML */
+		.wrapper {
+			background: #7A7A7A;
+		}
+
 		.top_line_header .slogon {
 			margin-top: 14px;
 			font-size: 10px;
@@ -587,9 +599,12 @@
 			color: #fff;
 			font-size: 10px;
 		}
-		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car {
-			margin-left: 0;
-			width: 100%;
+
+		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_car .car_booking_item_car_bottom .car_booking_item_car_bottom_item {
+			padding-right: 15px;
+			padding-left: 15px;
+			width: 30%;
+			margin-left: 3%;
 		}
 
 		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons {
@@ -598,7 +613,10 @@
 		}
 
 		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons p {
-			font-size: 14px;
+			font-size: 10px;
+			float: left;
+			padding-left: 10px;
+			margin-top: 6px;
 		}
 
 		.wrapper_car_booking .car_booking_content .car_booking_item .car_booking_item_icons .car_booking_icons img {
