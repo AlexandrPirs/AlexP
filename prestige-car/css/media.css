@@ -37,9 +37,11 @@
 		padding-top: 40px;
 	}
 
+	/*----------------------------- car_booking*/
 
+	/*----------------------------- ONLINE_BOOKING>CSS*/
 
-	/*----------------------------- car_booking*/\
+	/*----------------------------- ONLINE_BOOKING>CSS*/
 
 }
 
@@ -461,6 +463,11 @@
 			margin-top: 10px;
 		}
 
+		#hidden_form .bottom_form_title .details {
+			left: 0;
+			top: 48px;
+		}
+
 	}
 
 
@@ -676,6 +683,10 @@
 
 		#hidden_form .form_footer {
 			height: 85px;
+		}
+
+		#hidden_form .bottom_form_title .details {
+			top: 68px;
 		}
 
 
