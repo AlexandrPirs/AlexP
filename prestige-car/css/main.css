@@ -965,6 +965,311 @@ body {
 	/*------------------------------- car booking*/
 
 
+
+	/* --------------------------------------------- ONLINE BOOKING>HTML*/
+	
+	.wrapper_online_booking {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		background: url("../img/catalog_bg.jpg") top center no-repeat;
+		background-attachment: fixed;
+		-moz-background-size: cover; /* Firefox до 4.0 */
+		-webkit-background-size: cover; /* Safari и Chrome */
+		-o-background-size: cover; /* Opera до версии 10.53 */
+		background-size: cover; /* CSS3 */
+	}
+
+	.wrapper_online_booking header {
+		position: relative;
+		width: 100%;
+		min-height: 30px;
+		max-height: 500px;
+		height: 100%;
+		background-color: rgba(0,0,0,0.1);
+		-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+		-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+		box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	}
+
+	.wrapper_online_booking header .navigation p {
+		margin: 0;
+		padding-top: 3px;
+		font-size: 16px;
+		float: right;
+		color: #fff;
+		font-weight: bold;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+	.wrapper_online_booking header .navigation i {
+		display: block;
+		font-size: 20px;
+		margin-top: 3px;
+		padding-left: 3px;
+		color: #fff;
+		float: right;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+	.wrapper_online_booking header .navigation i:hover {
+		color: #99cc66;
+		cursor: pointer;
+	}
+
+	.wrapper_online_booking header .navigation p:hover {
+		color: #99cc66;
+	}
+
+	.wrapper_online_booking header .navigation ul {
+		padding-left: 0px;
+		margin-top: 14px;
+		list-style-type: none;
+		float: right;
+	}
+
+	.wrapper_online_booking header .navigation ul li {
+		float: left;
+		margin-left: 20px;
+	}
+
+	.wrapper_online_booking header .navigation ul li a {
+		color: #fff;
+		font-size: 14px;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+	.wrapper_online_booking header .navigation ul li a:hover {
+		color: #99cc66;
+		text-decoration: none;
+		border-bottom: 1px solid #99cc66;
+		padding-bottom: 4px;
+	}
+
+	.wrapper_online_booking .online_booking_top {
+		position: relative;
+		height: 40px;
+		background-color: rgba(255,255,255,.6);
+		-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+		-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+		box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+	}
+
+	.wrapper_online_booking .online_booking_top .online_booking_title {
+		padding-bottom: 15px;
+		text-align: left;
+		font-size: 26px;
+		color: #fff;
+		letter-spacing: 1px;
+	}
+
+	.wrapper_online_booking .online_booking_content {
+		position: relative;
+		padding: 100px 0px;
+		margin-bottom: -30px;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content {
+		position: relative;
+		width: 100%;
+	}
+
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form {
+		position: relative;
+		width: 100%;
+		min-height: 280px;
+		height: 100%;
+		background-color: #eee;
+		border-radius: 4px;
+		-moz-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+		-webkit-box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+		box-shadow: -2px 7px 7px rgba(0,0,0,.35);
+		padding: 15px 0px;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form span {
+		font-size: 18px;
+		margin: 0;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form input {
+		width: 100%;
+		outline: none;
+		text-align: center;
+		font-size: 12px;
+		height: 31px;
+		border: 2px solid #99cc66;
+		margin-bottom: 10px;
+		background-color: #fff;
+		color: #000;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form select {
+		width: 48%;
+		outline: none;
+		text-align: center;
+		font-size: 12px;
+		height: 31px;
+		border: 2px solid #99cc66;
+		margin-bottom: 10px;
+		background-color: #fff;
+		color: #000;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form .select_min {
+		margin-left: 4%;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form .item_select {
+		width: 100%;
+		margin-top: 15px;
+		outline: none;
+		text-align: center;
+		font-size: 12px;
+		height: 31px;
+		border: 2px solid #99cc66;
+		margin-bottom: 10px;
+		background-color: #fff;
+		color: #000;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form .button:hover {
+		background-color: #fff;
+		border: 2px solid #99cc66;
+		color: #99cc66;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form .button {
+		width: 100%;
+		outline: none;
+		text-align: center;
+		height: 31px;
+		border: none;
+		background-color: #99cc66;
+		border: 2px solid #99cc66;
+		color: #fff;
+		margin-top: 15px;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+	
+
+	.wrapper_online_booking .online_booking_content .online_booking_item {
+		position: relative;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_title {
+		text-align: center;
+		font-size: 26px;
+		color: #fff;
+		letter-spacing: 1px;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_img {
+		position: relative;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_img img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_icons {
+		position: relative;
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_icons .online_booking_icons {
+		padding-bottom: 20px;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_icons .online_booking_icons img {
+		position: relative;
+		float: left;
+		max-width: 35px;
+		max-height: 35px;
+		height: 100%;
+		width: 100%;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_icons .online_booking_icons p {
+		position: relative;
+		float: right;
+		font-size: 20px;
+		color: #fff;
+		margin: 0;
+		margin-top: 2px;
+	}
+
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_button {
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_button p {
+		font-size: 20px;
+		color: #fff;
+		margin-bottom: 10px;
+		padding-right: 10px;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_button p strong {
+		font-size: 40px;
+		font-weight: normal;
+		color: #fff;
+		padding-left: 5px;
+	}
+
+	.wrapper_online_booking .online_booking_content .online_booking_item .online_booking_item_button a {
+		padding: 3px 45px;
+		outline: none;
+		background-color: #99cc66;
+		color: #fff;
+		border: 1px solid #99cc66;
+		-webkit-transition: all .55s;
+		-o-transition: all .35s;
+		transition: all .35s;
+	}
+
+	.wrapper_catalog .online_booking_content .online_booking_item .online_booking_item_button a:hover {
+		background: none;
+		text-decoration: none;
+		border: 1px solid #99cc66;
+		color: #99cc66;
+	}
+
+
+
+
+	/* --------------------------------------------- ONLINE BOOKING>HTML*/
+
 	/* ---------------------------------- FOOTER*/
 
 	footer {
