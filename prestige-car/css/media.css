@@ -161,7 +161,16 @@
 
 
 	/*----------------------------- car_booking*/
+
+
+	/*------------------------------- online_booking*/
+	.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form {
+		min-height: 420px;
+	}
 	
+
+
+	/*------------------------------- online_booking*/
 
 
 	footer .copyright {
@@ -362,6 +371,27 @@
 
 
 		/*----------------------------- car_booking*/
+
+		/*------------------------------- online_booking*/
+		
+		.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form select {
+			width: 47%;
+		}
+
+		.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form .select_min {
+			margin-left: 6%;
+		}
+
+		.wrapper_online_booking .online_booking_content .online_booking_form_content {
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+
+		.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form {
+			min-height: 530px;
+		}
+
+		/*------------------------------- online_booking*/
 
 
 
@@ -651,6 +681,28 @@
 		}
 
 		/*----------------------------- car_booking*/
+
+		/*------------------------------- online_booking*/
+
+		.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form .item {
+			width: 100%;
+		}
+
+		.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form span {
+			font-size: 14px;
+		}
+
+
+		.wrapper_online_booking .online_booking_content .online_booking_form_content {
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+
+		.wrapper_online_booking .online_booking_content .online_booking_form_content .online_booking_form {
+			min-height: 650px;
+		}
+
+		/*------------------------------- online_booking*/
 		
 		#hidden_form {
 			width: 100%;
