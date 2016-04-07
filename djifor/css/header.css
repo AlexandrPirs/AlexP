@@ -112,8 +112,6 @@ header nav ul li a {
 header nav ul li a:hover {
 	text-decoration: none;
 	color: #25bebe;
-	border-bottom: 1px solid #25bebe;
-	padding-bottom: 3px;
 }
 
 header .header_icons {

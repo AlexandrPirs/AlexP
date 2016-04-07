@@ -85,38 +85,13 @@ body {
 }
 
 .slider .slider_item_content {
-	position: absolute;
-	width: 34%;
-	left: 33%;
+	position: relative;
+	text-align: center;
 	z-index: 100;
-	bottom: 10%;
+	margin-top: -120px;
 }
 
-.slider .slider_item_content .button_slider_wan {
-	width: 220px;
-	height: 60px;
-	background: none;
-	border: 1px solid #fff;
-	font-family: "HelveticaNeueCyr-Medium";
-	font-size: 16px;
-	text-transform: uppercase;
-	color: #fff;
-	-webkit-transition: all .55s;
-	-o-transition: all .35s;
-	transition: all .35s;
-}
-.slider .slider_item_content .button_slider_wan:hover {
-	background-color: #fff;
-	color: #25bebe;
-	outline: none;
-}
-.slider .slider_item_content .button_slider_wan:focus {
-	outline: none;
-}
-
-
-
-.slider .slider_item_content .button_slider_to {
+.slider .slider_item_content .button_slider{
 	width: 220px;
 	height: 60px;
 	background: #fff;
@@ -130,12 +105,12 @@ body {
 	-o-transition: all .35s;
 	transition: all .35s;
 }
-.slider .slider_item_content .button_slider_to:hover {
+.slider .slider_item_content .button_slider:hover {
 	background: #25bebe;
 	color: #fff;
 	border: 1px solid #25bebe;
 }
-.slider .slider_item_content .button_slider_to:focus {
+.slider .slider_item_content .button_slider:focus {
 	outline: none;
 }
 
