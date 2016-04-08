@@ -10,6 +10,10 @@
 		width: 48%;
 		left: 26%;
 	}
+
+	.product .product_item {
+		height: 323px;
+	}
 }
 
 /* Medium Devices, Desktops */

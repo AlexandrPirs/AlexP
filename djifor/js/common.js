@@ -9,9 +9,7 @@ $(function() {
 
 
 	//search
-	$("header .header_icons .search").click(function()	{
-		$("header .header_icons .input_search input").slideToggle();
-	});
+	
 
 	//SVG Fallback
 	if(!Modernizr.svg) {

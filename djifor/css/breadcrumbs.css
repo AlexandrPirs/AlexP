@@ -1,0 +1,22 @@
+
+
+.breadcrumbs {
+	position: relative;
+	padding: 30px 0px;
+}
+
+.breadcrumbs span a {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #cccccc;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.breadcrumbs span a:hover {
+	text-decoration: none;
+	color: #25bebe;
+}

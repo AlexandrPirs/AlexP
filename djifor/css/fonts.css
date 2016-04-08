@@ -10,3 +10,9 @@
 	src: local("HelveticaNeueCyr-Medium"), /* проверяем наличие шрифта в ОС пользователя */
 	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
 }
+
+@font-face {
+	font-family: "HelveticaNeueCyr-Light"; /* имя шрифта для CSS правил */
+	src: local("HelveticaNeueCyr-Light"), /* проверяем наличие шрифта в ОС пользователя */
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.otf"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
