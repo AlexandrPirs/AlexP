@@ -1,0 +1,42 @@
+.top_line_header {
+	position: relative;
+	background-color: #fff;
+	width: 100%;
+	height: 40px;
+}
+
+.top_line_header .slogon {
+	float: left;
+	font-family: "Geometria-Italic";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	color: #99cc66;
+	margin-top: 5px;
+}
+
+.top_line_header .header_phone {
+	float: right;
+	height: 40px;
+}
+
+.top_line_header .header_phone p {
+	text-align: right;
+	font-family: "Geometria-Italic";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	color: #99cc66;
+	margin: 0;
+	margin-top: -3px;
+	margin-bottom: -10px;
+}
+
+.top_line_header .header_phone span {
+	text-align: right;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;
+	margin: 0;
+}

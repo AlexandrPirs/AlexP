@@ -1,0 +1,36 @@
+.reviews_and_logo {
+	position: relative;
+	padding: 40px 0px;
+}
+
+.reviews_and_logo .s_review_item img {
+	width: 110px;
+	height: 100px;
+}
+
+.reviews_and_logo .s_review_item p {
+	margin-left: 70px;
+	margin-top: -40px;
+	margin-bottom: 0px;
+	color: #fff;
+}
+
+.reviews_and_logo .s_review_item a {
+	margin-left: 70px;
+	color: #fff;
+	text-decoration: underline;
+	font-family: "Geometria-BoldItalic";
+	font-size: 18px;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.reviews_and_logo .s_review_item a:hover {
+	text-decoration: none;
+	color: #99cc66;
+}
+
+.reviews_and_logo .logo {
+	text-align: center;
+}

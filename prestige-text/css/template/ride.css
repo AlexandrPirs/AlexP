@@ -1,0 +1,28 @@
+.ride {
+	position: relative;
+	padding: 30px 0px;
+}
+.ride .ride_title {
+	padding-bottom: 15px;
+	text-align: left;
+	font-size: 26px;
+	color: #fff;
+	letter-spacing: 1px;
+	text-shadow: 2px 7px 7px rgba(0,0,0,.35)
+}
+.ride .ride_item ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
+}
+.ride .ride_item ul li a {
+	color: #fff;
+	font-size: 12px;
+	-webkit-transition: all .55s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	line-height: 12px;
+}
+.ride .ride_item ul li a:hover {
+	color: #99cc66;
+}
