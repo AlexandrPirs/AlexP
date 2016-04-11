@@ -1,0 +1,182 @@
+.tovar_tabs .description {
+	position: relative;
+	margin-top: 200px;
+}
+.tovar_tabs .description .title {
+	position: relative;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+}
+.tovar_tabs .description .title span {
+	font-size: 24px;
+}
+.tovar_tabs .description .title p {
+	margin: 0;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.tovar_tabs .description .item_tabs {
+	position: relative;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.tovar_tabs .description .item_tabs .item_tabs_img {
+	position: relative;
+	height: 100%;
+}
+/* ITEM 1 */
+.tovar_tabs .description .item_tabs .item_tabs_text_1 {
+	position: relative;
+	padding-top: 70px;
+}
+
+.tovar_tabs .description .item_tabs .item_tabs_text_1 h1 {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	color: #22c4c2;
+	margin: 0;
+}
+
+.tovar_tabs .description .item_tabs .item_tabs_text_1 p {
+	margin: 0;
+	margin-top: 15px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+	font-size: 16px;
+	line-height: 26px;
+}
+/* ITEM 2 */
+.tovar_tabs .description .item_tabs .item_tabs_text_2 {
+	position: relative;
+	padding-top: 30px;
+}
+.tovar_tabs .description .item_tabs .item_tabs_text_2 h1 {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	color: #22c4c2;
+	margin: 0;
+}
+.tovar_tabs .description .item_tabs .item_tabs_text_2 p {
+	margin: 0;
+	margin-top: 15px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+	font-size: 16px;
+	line-height: 26px;
+}
+/* ITEM 2 */
+.tovar_tabs .description .item_tabs .item_tabs_text_3 {
+	position: relative;
+	padding-top: 70px;
+}
+.tovar_tabs .description .item_tabs .item_tabs_text_3 h1 {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	color: #22c4c2;
+	margin: 0;
+}
+.tovar_tabs .description .item_tabs .item_tabs_text_3 p {
+	margin: 0;
+	margin-top: 15px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+	font-size: 16px;
+	line-height: 26px;
+}
+/* ITEM 4 */
+.tovar_tabs .description .item_tabs .item_tabs_text_4 {
+	position: relative;
+	padding-top: 80px;
+}
+.tovar_tabs .description .item_tabs .item_tabs_text_4 h1 {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	color: #22c4c2;
+	margin: 0;
+}
+.tovar_tabs .description .item_tabs .item_tabs_text_4 p {
+	margin: 0;
+	margin-top: 15px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TOVAR ITEM TABS*/
+.tovar_tabs .description .tovar_tabs_item {
+	position: relative;
+	height: 100%;
+	padding: 50px 0px;
+}
+
+.tovar_tabs .description .tovar_tabs_item .text_tabs_item {
+	position: relative;
+	margin-top: 30px;
+	height: 100%;
+}
+
+.tovar_tabs .description .tovar_tabs_item .text_tabs_item h1 {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	color: #22c4c2;
+	margin: 0;
+}
+
+.tovar_tabs .description .tovar_tabs_item .text_tabs_item p {
+	margin: 0;
+	margin-top: 15px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	color: #999;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.tovar_tabs .description .tovar_tabs_item .img_tabs_item {
+	position: relative;
+	height: 100%;
+	width: 50%;
+}
+
+.tovar_tabs .description .tovar_tabs_item .img_tabs_item {
+	width: 50%;
+	height: 100%;
+}

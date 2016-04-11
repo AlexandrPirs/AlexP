@@ -1,0 +1,106 @@
+.tovar_slider {
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.tovar_slider .slider_content_right {
+	position: relative;
+	height: 100%;
+}
+
+.tovar_slider .slider_content_right .title {
+	margin-top: 20px;
+}
+
+.tovar_slider .slider_content_right .title span {
+	font-family: "HelveticaNeueCyr-Light";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 30px;
+	color: #999;
+}
+
+.tovar_slider .slider_content_right .line_wan {
+	position: relative;
+	height: 30px;
+	margin-top: 40px;
+}
+
+.tovar_slider .slider_content_right .line_wan .product_price {
+	float: left;
+}
+
+.tovar_slider .slider_content_right .line_wan .product_price span {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	color: #22c4c2
+}
+
+.tovar_slider .slider_content_right .line_wan .social_like {
+	float: right;
+}
+
+.tovar_slider .slider_content_right .specifications {
+	position: relative;
+	margin-top: 50px;
+}
+
+.tovar_slider .slider_content_right .specifications .specifications_left {
+	float: left;
+	padding-right: 50px;
+}
+
+.tovar_slider .slider_content_right .specifications .specifications_left p {
+	margin: 0;
+	margin-bottom: 10px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: #999;
+}
+
+.tovar_slider .slider_content_right .specifications .specifications_left p span {
+	font-family: "HelveticaNeueCyr-Light";
+}
+
+.tovar_slider .slider_content_right .specifications .specifications_right {
+	text-align: left;
+}
+
+.tovar_slider .slider_content_right .specifications .specifications_right p {
+	margin: 0;
+	margin-bottom: 10px;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: #999;
+}
+
+.tovar_slider .slider_content_right .specifications .specifications_right p span {
+	font-family: "HelveticaNeueCyr-Light";
+}
+
+.tovar_slider .slider_content_right .slider_content_button {
+	width: 220px;
+	height: 60px;
+	margin-top: 45px;
+	background: #25bebe;
+	border: 1px solid #25bebe;
+	font-family: "HelveticaNeueCyr-Medium";
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.tovar_slider .slider_content_right .slider_content_button:hover {
+	background-color: #fff;
+	color: #25bebe;
+}
+

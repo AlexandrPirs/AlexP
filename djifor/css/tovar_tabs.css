@@ -1,0 +1,119 @@
+.tovar_tabs {
+	position: relative;
+	padding: 80px 0px;
+}
+
+.tovar_tabs .korpus > div, .korpus > input { 
+	display: none;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+.tovar_tabs .korpus > div {
+	width: 100%;
+}
+
+.tovar_tabs .korpus label {
+	font-family: "HelveticaNeueCyr-Medium";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	color: #999;
+	text-transform: uppercase;
+	height: 130px;
+	border: 1px solid #e5e4e4;
+	margin-right: -1px; 
+	line-height: 28px; 
+	cursor: pointer; 
+	position: relative; 
+	bottom: 1px; 
+	background: #f3f2f2; 
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.tovar_tabs .korpus label img {
+	color: #000;
+}
+
+
+.tovar_tabs .korpus label:hover {
+	background: #22c4c2;
+	border: 1px solid #22c4c2;
+	color: #fff;
+}
+
+
+.tovar_tabs .korpus label:active {
+	background: #22c4c2;
+	border: 1px solid #22c4c2;
+	color: #fff;
+}
+
+.tovar_tabs .korpus input[type="radio"]:checked + label { 
+	
+}
+
+.tovar_tabs .korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+.tovar_tabs .korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2),
+.tovar_tabs .korpus > input:nth-of-type(3):checked ~ div:nth-of-type(3) { 
+	display: block; 
+	padding: 5px; 
+}
+
+/* ВКЛАДКИ */
+.tovar_tabs .description {
+	margin-top: 200px;
+}
+.tovar_tabs .characteristic {
+	margin-top: 200px;
+}
+.tovar_tabs .video {
+	margin-top: 200px;
+}
+
+.tovar_tabs .korpus label .tovar_Tabs_img_1 {
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	background-image: url("../img/tovar_tabs_img_2.png");
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.tovar_tabs .korpus label:hover .tovar_Tabs_img_1 {
+	background-image: url("../img/tovar_tabs_img_2_hover.png");
+}
+/**/
+.tovar_tabs .korpus label .tovar_Tabs_img_2 {
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	background-image: url("../img/tovar_tabs_img_3.png");
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.tovar_tabs .korpus label:hover .tovar_Tabs_img_2 {
+	background-image: url("../img/tovar_tabs_img_3_hover.png");
+}
+/**/
+.tovar_tabs .korpus label .tovar_Tabs_img_3 {
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	background-image: url("../img/tovar_tabs_img_1.png");
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.tovar_tabs .korpus label:hover .tovar_Tabs_img_3 {
+	background-image: url("../img/tovar_tabs_img_1_hover.png");
+}

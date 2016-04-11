@@ -60,6 +60,10 @@ body {
 	overflow-x: hidden;
 }
 
+a:focus {
+	text-decoration: none;
+}
+
 .hidden {
 	display: none;
 }
