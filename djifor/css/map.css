@@ -1,0 +1,51 @@
+.map {
+	position: relative;
+	width: 100%;
+	height: 830px;
+}
+
+.map .map_top {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	width: 100%;
+	height: 270px;
+	background-color: rgba(29,195,193,.85);
+}
+
+.map .map_top .map_contacts {
+	position: relative;
+	text-align: center;
+	width: 38%;
+	margin-left: 31%;
+	margin-top: 8%;
+}
+
+.map .map_top .map_contacts img {
+	float: left;
+}
+
+.map .map_top .map_contacts ul {
+	float: right;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	margin-top: -15px;
+}
+
+.map .map_top .map_contacts ul li a {
+	font-family: "HelveticaNeueCyr-light";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #fff;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.map .map_top .map_contacts ul li a span {
+	font-family: "HelveticaNeueCyr-medium";
+	padding-right: 10px;
+}

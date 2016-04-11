@@ -99,6 +99,10 @@
 	transition: all .35s;
 }
 
+.tovar_slider .slider_content_right .slider_content_button:focus {
+	outline: none;
+}
+
 .tovar_slider .slider_content_right .slider_content_button:hover {
 	background-color: #fff;
 	color: #25bebe;

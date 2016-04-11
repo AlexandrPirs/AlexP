@@ -1,0 +1,20 @@
+.repairs_top_banner {
+	position: relative;
+	height: 215px;
+	background-image: url("../img/phantom_form_bg.jpg");
+	background-position: 100% 100%;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 36px;
+	padding-top: 55px;
+}
+
+.repairs_top_banner img {
+	display: block;
+	margin: 0 auto;
+}
+
