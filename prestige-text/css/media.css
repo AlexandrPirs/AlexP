@@ -281,6 +281,19 @@
 	}
 	/* -------------------- reviews_hidden_form.HTML */
 
+
+	/* -------------------- about_title */
+
+	.about_title p {
+		font-size: 14px;
+	}
+
+	.about_team .about_team_item {
+		min-height: 250px;
+		padding: 50px 0px;
+	}
+	/* -------------------- about_title */
+
 	
 
 	/* -------------------- HIDDEN_FORM */
@@ -415,11 +428,9 @@
 		display: none;
 	}
 
-
 	.reviews_and_logo .logo {
 		margin-top: 20px;
 	}
-
 
 	.title_center h1 {
 		font-size: 45px;
@@ -563,6 +574,20 @@
 		margin-left: 0;
 	}
 	/* -------------------- reviews_hidden_form.HTML */
+
+	/* -------------------- about_title */
+
+	.about_title p {
+		font-size: 14px;
+	}
+
+	.about_team .about_team_item {
+		width: 100%;
+		min-height: 150px;
+		padding: 20px 0px;
+	}
+	/* -------------------- about_title */
+
 
 	/* -------------------- HIDDEN_FORM */
 	.car_booking_form {
