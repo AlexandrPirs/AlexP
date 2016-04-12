@@ -20,6 +20,8 @@
 }
 
 .reviews_top .riviews_content_top .riviews_top_button {
+	display: inline-block;
+	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 12px;

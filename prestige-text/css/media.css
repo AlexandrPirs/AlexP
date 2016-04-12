@@ -108,6 +108,14 @@
 		margin-left: 4%;
 	}
 	/* -------------------- online_booking.HTML */
+	
+	/* -------------------- reviews_hidden_form.HTML */
+	.reviews_hidden_form {
+		width: 80%;
+		margin-left: 10%;
+	}
+	/* -------------------- reviews_hidden_form.HTML */
+
 
 
 	/* -------------------- HIDDEN_FORM */
@@ -251,6 +259,29 @@
 	}
 	/* -------------------- online_booking.HTML */
 
+
+
+	/* -------------------- reviews.HTML */
+	.reviews_content .reviews_content_item {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	/* -------------------- reviews.HTML */
+	/* -------------------- reviews_hidden_form.HTML */
+	.reviews_hidden_form {
+		height: 385px;	
+	}
+
+	.reviews_hidden_form .riviews_from {
+		min-height: 360px;
+	}
+	.reviews_hidden_form .riviews_from .item {
+		width: 96%;
+	}
+	/* -------------------- reviews_hidden_form.HTML */
+
+	
 
 	/* -------------------- HIDDEN_FORM */
 	.car_booking_form {
@@ -498,6 +529,40 @@
 	.online_booking_form .item {
 		width: 100%;
 	}
+
+	/* -------------------- reviews.HTML */
+	.reviews_top .riviews_content_top {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 30px;
+	}
+
+	.reviews_top img {
+		float: none;
+		margin-left: 25%;
+		margin-top: 5%;
+		max-width: 200px;
+		max-height: 180px;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.reviews_content .reviews_content_item h1 {
+		font-size: 16px;
+	}
+
+	.reviews_content .reviews_content_item p {
+		font-size: 14px;
+	}
+	/* -------------------- reviews.HTML */
+
+	/* -------------------- reviews_hidden_form.HTML */
+	.reviews_hidden_form {
+		width: 100%;
+		margin-left: 0;
+	}
+	/* -------------------- reviews_hidden_form.HTML */
 
 	/* -------------------- HIDDEN_FORM */
 	.car_booking_form {
