@@ -10,8 +10,11 @@ $(function() {
 
 
 	//popup
-		$(".popup_c").magnificPopup();
-		
+	$(".popup_c").magnificPopup();
+
+	//popup
+	$(".popup_riviews").magnificPopup();
+
 
 
 
