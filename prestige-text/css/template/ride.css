@@ -2,13 +2,14 @@
 	position: relative;
 	padding: 30px 0px;
 }
-.ride .ride_title {
-	padding-bottom: 15px;
+.ride .title {
+	position: relative;
 	text-align: left;
+	margin: 0;
 	font-size: 26px;
-	color: #fff;
+	color: #666;
 	letter-spacing: 1px;
-	text-shadow: 2px 7px 7px rgba(0,0,0,.35)
+	padding-bottom: 20px;
 }
 .ride .ride_item ul {
 	list-style-type: none;
@@ -16,8 +17,8 @@
 	margin: 0;
 }
 .ride .ride_item ul li a {
-	color: #fff;
-	font-size: 12px;
+	color: #666;
+	font-size: 16px;
 	-webkit-transition: all .55s;
 	-o-transition: all .35s;
 	transition: all .35s;

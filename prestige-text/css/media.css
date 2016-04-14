@@ -2,6 +2,11 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	
+	.top_line_header .slogon {
+		width: 30%;
+	}
+
 	/* -------------------- booking_car.HTML */
 	.car_booking_item_text {
 		padding-top: 30px;
