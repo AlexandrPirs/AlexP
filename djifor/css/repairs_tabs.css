@@ -1,6 +1,7 @@
 .repairs_tabs {
 	position: relative;
-	padding: 30px 0px;
+	padding-top: 15px;
+	padding-bottom: 30px;
 }
 
 .korpus > div, .korpus > input { 
@@ -20,6 +21,7 @@
 	margin-right: -1px;  
 	cursor: pointer; 
 	text-align: center;
+	padding-top: 20px;
 }
 
 .korpus label {
@@ -53,23 +55,24 @@ input:checked + label {
 	transition: all .15s;
 }
 
-.item2 .inspire_content_tabs {
+.item .content_tabs {
 	background-color: #f6f6f6;
 	margin-top: 135px;
 	min-height: 150px;
 	padding: 30px;
+	margin-left: -5px;
 }
 
-.item2 .inspire_content_tabs ul {
+.item .content_tabs ul {
 	padding: 0;
 	list-style-type: none;
 }
 
-.item2 .inspire_content_tabs ul li {
+.item .content_tabs ul li {
 	margin-bottom: 10px;
 }
 
-.item2 .inspire_content_tabs ul li a {
+.item .content_tabs ul li a {
 	font-family: "HelveticaNeueCyr-Roman";
 	font-weight: normal;
 	font-style: normal;
