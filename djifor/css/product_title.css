@@ -1,10 +1,10 @@
 
-.phantom_title {
+.product_title {
 	position: relative;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 
-.phantom_title .title {
+.product_title .title {
 	text-transform: uppercase;
 	font-family: "HelveticaNeueCyr-Light";
 	font-size: 24px;
@@ -15,11 +15,12 @@
 	padding-bottom: 8px;
 }
 
-.phantom_title .all {
+.product_title .all {
 	float: right;
+	margin-top: 15px;
 }
 
-.phantom_title .all a {
+.product_title .all a {
 	font-family: "HelveticaNeueCyr-Roman";
 	font-size: 14px;
 	font-weight: normal;
@@ -31,7 +32,7 @@
 	transition: all .35s;
 }
 
-.phantom_title .all a:hover {
+.product_title .all a:hover {
 	text-decoration: none;
 	color: #ccc;
 	border-bottom: 1px solid #ccc;
