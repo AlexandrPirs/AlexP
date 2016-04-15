@@ -60,6 +60,15 @@ body {
 	overflow-x: hidden;
 }
 
+button {
+	outline: none;
+}
+
+button:hover {
+	outline: none;
+}
+
+
 a:focus {
 	text-decoration: none;
 }
