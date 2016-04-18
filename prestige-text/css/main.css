@@ -102,6 +102,8 @@ a:focus {
 
 
 
+
+
 /* wrapper CATALOG.html */
 .wrapper_catalog {
 	position: relative;
@@ -116,6 +118,34 @@ a:focus {
 	background-size: cover;
 }
 
+.wrapper_online_booking {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+	background: url("../img/online_booking_bg.jpg") top center no-repeat;
+	background-attachment: fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.wrapper_contact {
+	position: relative;
+	width: 100%;
+	min-height: 280px;
+	height: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	background: url("../img/contact_bg.jpg") top center no-repeat;
+	background-attachment: fixed;
+	-moz-background-size: cover; /* Firefox до 4.0 */
+	-webkit-background-size: cover; /* Safari и Chrome */
+	-o-background-size: cover; /* Opera до версии 10.53 */
+	background-size: cover; /* CSS3 */
+}
+
 .catalog_content {
 	position: relative;
 	padding: 30px 0px;
@@ -125,6 +155,7 @@ a:focus {
 	position: relative;
 	padding: 30px 0px;
 }
+
 
 
 /*hidden*/

@@ -15,6 +15,30 @@
 	text-align: center;
 	margin-left: 0;
 }
+
+.catalog_content .catalog_item .catalog_item_img .catalog_item_sale {
+	position: absolute;
+	bottom: 10%;
+	left: 0%;
+	height: 40px;
+	width: 150px;
+	padding-top: 6px;
+	background-color: #990000;
+	-moz-box-shadow: -1px 3px 3px #656565;
+	-webkit-box-shadow: -1px 3px 3px #656565;
+	box-shadow: -1px 3px 3px #656565;
+}
+
+.catalog_content .catalog_item .catalog_item_img .catalog_item_sale span {
+	font-family: "Geometria";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
 .catalog_content .catalog_item .catalog_item_img img {
 	width: 100%;
 	height: 100%;
@@ -27,7 +51,7 @@
 .catalog_content .catalog_item .catalog_item_icons .catalog_icons {
 	padding-bottom: 20px;
 }
- .catalog_content .catalog_item .catalog_item_icons .catalog_icons img {
+.catalog_content .catalog_item .catalog_item_icons .catalog_icons img {
 	position: relative;
 	float: left;
 	max-width: 35px;
