@@ -1,17 +1,20 @@
 $(function() {
 
 	
-	
-	
-
-
-	//product_item
-
-
-
-
-
 	//search
+	$('header .header_icons .search a').click(function(){
+		$("header nav").toggle()
+		$("header .search_nav").toggle()
+		$("header .search_nav input").css("width", "109%")
+	});
+
+	//call
+	$('header .header_icons .call a').click(function(){
+		$("header nav").toggle()
+		$("header .call_nav").toggle()
+	});
+
+
 	
 
 	//SVG Fallback

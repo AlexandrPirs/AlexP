@@ -15,7 +15,8 @@ header .logo {
 
 header nav {
 	position: relative;
-	margin-top: 16px;
+	margin-top: 18px;
+	display: block;
 }
 
 header nav ul {
@@ -26,7 +27,7 @@ header nav ul {
 
 header nav ul li {
 	display: inline-block;
-	padding-right: 22px;
+	padding-right: 15px;
 }
 
 header nav ul li a {
@@ -44,10 +45,55 @@ header nav ul li a:hover {
 	color: #25bebe;
 }
 
+/* SEARCH NAV */
+header .search_nav {
+	position: relative;
+	margin-top: 28px;
+	display: none;
+}
+
+header .search_nav input {
+	width: 100%;
+	border: 1px solid #e5e7e7;
+	color: #e5e7e7;
+	height: 36px;
+	padding-left: 10px;
+	font-size: 16px;
+	outline: none;
+}
+/* CALL NAV */
+header .call_nav {
+	position: relative;
+	margin-top: 28px;
+	display: none;
+}
+
+header .call_nav ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header .call_nav ul li {
+	margin-top: 8px;
+	text-align: center;
+}
+
+header .call_nav ul li a {
+	text-decoration: none;
+	color: #999;
+}
+
+header .call_nav ul li span {
+	padding-right: 10px;
+	color: #25bebd;
+}
+
 header .header_icons {
 	position: relative;
 	float: right;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 header .header_icons .search {
@@ -55,25 +101,24 @@ header .header_icons .search {
 	display: inline-block;
 }
 
-header .header_icons .input_search input {
-	display: none;
-	float: left;
-	outline: none;
-	height: 23px;
-	border: 1px solid #25bebe;
-	color: #999;
-	font-size: 14px;
-	padding-left: 10px;
+header .header_icons .search a {
+	display: block;
 }
 
 header .header_icons .call {
 	width: 30px;
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 10px;
+}
+header .header_icons .call a {
+	display: block;
 }
 
 header .header_icons .basket {
 	width: 30px;
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 10px;
+}
+header .header_icons .basket a {
+	display: block;
 }
