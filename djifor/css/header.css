@@ -22,12 +22,11 @@ header nav ul {
 	list-style-type: none;
 	padding: 0;
 	float: left;
-	margin-left: 5%;
 }
 
 header nav ul li {
 	display: inline-block;
-	padding-right: 25px;
+	padding-right: 22px;
 }
 
 header nav ul li a {
