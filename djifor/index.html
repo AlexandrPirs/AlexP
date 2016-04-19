@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
 	<link rel="stylesheet" href="libs/owl/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
 	
 	<!-- Блочные css.file -->
 	
@@ -35,6 +36,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/form_basket.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
 
@@ -92,7 +94,7 @@
 						</div>
 
 						<div class="basket">
-							<a href="#"><img src="img/basket.png" alt=""></a>
+							<a href="#hidden_basket" class="popup_basket"><img src="img/basket.png" alt=""></a>
 						</div>
 
 					</div>
@@ -287,7 +289,57 @@
 
 	
 	
-	<div class="hidden"></div>
+	<div class="hidden">
+		<form action="" class="form_basket_content" id="hidden_basket">
+			<div class="title_basket">
+				<h1>Корзина</h1>
+				<span>Сума</span>
+			</div>
+
+			<div class="item_product_basket">
+				<div class="item_product_img_basket"></div>
+				<p>DJI Phantom 3 Professional</p>
+				<div class="slider_basket">
+					<div class="owl-carousel_basket">
+						<div>1 шт.</div>
+						<div>2 шт.</div>
+						<div>3 шт.</div>
+						<div>4 шт.</div>
+						<div>5 шт.</div>
+						<div>6 шт.</div>
+						<div>7 шт.</div>
+						<div>8 шт.</div>
+						<div>9 шт.</div>
+						<div>10 шт.</div>	
+					</div>
+				</div>
+				<span>$1,399.00</span>
+				<img src="img/close.png" alt="delete_item_product" class="delete_item_product">
+			</div>
+
+			<div class="item_product_basket">
+				<div class="item_product_img_basket"></div>
+				<p>DJI Phantom 3 Professional</p>
+				<div class="slider_basket">
+					<div class="owl-carousel_basket">
+						<div>1 шт.</div>
+						<div>2 шт.</div>
+						<div>3 шт.</div>
+						<div>4 шт.</div>
+						<div>5 шт.</div>
+						<div>6 шт.</div>
+						<div>7 шт.</div>
+						<div>8 шт.</div>
+						<div>9 шт.</div>
+						<div>10 шт.</div>	
+					</div>
+				</div>
+				<span>$1,399.00</span>
+				<img src="img/close.png" alt="delete_item_product" class="delete_item_product">
+			</div>
+
+		</form>
+	</div>
 
 	<div class="loader">
 		<div class="loader_inner"></div>
@@ -304,6 +356,7 @@
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<script src="libs/owl/owl.carousel.min.js"></script>
 	<script src="js/owl-index.js"></script>
 	

@@ -15,7 +15,14 @@ $(function() {
 	});
 
 
-	
+	//form_basket
+	$(".popup_basket").magnificPopup();
+
+
+	//delete_item_product
+	$(".item_product_basket .delete_item_product").click(function(){
+		$(this).parents(".item_product_basket").animate({ opacity: "hide" }, "slow");
+	});
 
 	//SVG Fallback
 	if(!Modernizr.svg) {
