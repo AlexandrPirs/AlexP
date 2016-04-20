@@ -4,38 +4,42 @@ $(function() {
 	var isSearch = -1;
 	var isCall = -1;
 
-	//search
-	$('header .header_icons .search a').click(function () {
-		if (isCall > 0) {
-			$("header .call_nav").toggle();
-			$("header .search_nav").toggle();
-			$("header .search_nav input").css("width", "109%");
-			isCall *= -1;
-		} else {
-			$("header nav").toggle();
-			$("header .search_nav").toggle();
-			$("header .search_nav input").css("width", "109%");
-			isSearch *= -1;
-			console.log('isSearch = ' + isSearch);
-		}
+//search
+$('header .header_icons .search a').click(function () {
+	if (isCall > 0) {
+		$("header .call_nav").toggle();
+		$("header .search_nav").toggle();
+		$("header .search_nav input").css("width", "109%");
+		isCall *= -1;
+		isSearch *= -1;
+		console.log('isCall = ' + isCall);
+	} else {
+		$("header nav").toggle();
+		$("header .search_nav").toggle();
+		$("header .search_nav input").css("width", "109%");
+		isSearch *= -1;
+		console.log('isSearch = ' + isSearch);
+	}
 
-	});
+});
 
-	//call
-	$('header .header_icons .call a').click(function () {
-		if (isSearch > 0) {
-			$("header .call_nav").toggle();
-			$("header .search_nav").toggle();
-			$("header .search_nav input").css("width", "109%");
-			isSearch *= -1;
-		} else {
-			$("header nav").toggle();
-			$("header .call_nav").toggle();
-			isCall *= -1;
-			console.log('isCall = ' + isCall);
-		}
+//call
+$('header .header_icons .call a').click(function () {
+	if (isSearch > 0) {
+		$("header .call_nav").toggle();
+		$("header .search_nav").toggle();
+		$("header .search_nav input").css("width", "109%");
+		isSearch *= -1;
+		isCall *= -1;
+		console.log('isSearch = ' + isSearch);
+	} else {
+		$("header nav").toggle();
+		$("header .call_nav").toggle();
+		isCall *= -1;
+		console.log('isCall = ' + isCall);
+	}
 
-	});
+});
 
 	//
 
