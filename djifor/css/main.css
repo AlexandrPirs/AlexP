@@ -1,18 +1,22 @@
 *::-webkit-input-placeholder {
-	color: #fff;
+	color: #999;
 	opacity: 1;
 }
 *:-moz-placeholder {
-	color: #fff;
+	color: #999;
 	opacity: 1;
 }
 *::-moz-placeholder {
-	color: #fff;
+	color: #999;
 	opacity: 1;
 }
 *:-ms-input-placeholder {
-	color: #fff;
+	color: #999;
 	opacity: 1;
+}
+
+input:focus {
+	outline: none;
 }
 
 body input:focus:required:invalid,
