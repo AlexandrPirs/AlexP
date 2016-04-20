@@ -15,7 +15,10 @@ $(function() {
 	//popup
 	$(".popup_riviews").magnificPopup();
 
+	//popup_regulations
+	$(".popup_regulations").magnificPopup();
 
 
 
-});
+
+	});

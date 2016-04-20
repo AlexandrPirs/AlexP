@@ -30,6 +30,11 @@
 
 .footer_map .social_footer_map {
 	position: relative;
-	margin-top: 40px;
+	margin-top: 25px;
+}
+
+.footer_map .social_footer_map img {
+	max-width: 40px;
+	max-height: 40px;
 }
 

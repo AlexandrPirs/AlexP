@@ -1,4 +1,7 @@
 $(function() {
+
+	
+	
 	//details FORM
 	$("#hidden_form .bottom_form_title a").click(function()	{
 		$("#hidden_form .bottom_form_title .details").slideToggle();
